@@ -1,0 +1,204 @@
+{
+ "slug": "kepler",
+ "facts": {
+  "kgw_vols": {
+   "value": 26,
+   "source": "PDAI kepler-prim: kgw-*/pdai-config.json (pages, year) and page folders"
+  },
+  "kgw_pages": {
+   "value": 14277,
+   "source": "PDAI kepler-prim: kgw-*/pdai-config.json (pages, year) and page folders"
+  },
+  "kgw_letter_vols": {
+   "value": 6,
+   "source": "PDAI kepler-prim: kgw-*/pdai-config.json (pages, year) and page folders"
+  },
+  "kgw_letter_pages": {
+   "value": 3127,
+   "source": "PDAI kepler-prim: kgw-*/pdai-config.json (pages, year) and page folders"
+  },
+  "kgw_docs_total": {
+   "value": 27,
+   "source": "PDAI kepler-prim: directories kgw-*"
+  },
+  "letters": {
+   "value": 934,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "correspondents_raw": {
+   "value": 326,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "letter_first": {
+   "value": 1590,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "letter_last": {
+   "value": 1630,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "letter_date_first": {
+   "value": "1590-06-01",
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "letter_date_last": {
+   "value": "1630-10-21",
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "letters_day": {
+   "value": 856,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "letters_month": {
+   "value": 36,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "letters_year": {
+   "value": 32,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "letters_open": {
+   "value": 10,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "letters_in": {
+   "value": 652,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "letters_out": {
+   "value": 282,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "letters_peak_year": {
+   "value": 1607,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "letters_peak_n": {
+   "value": 54,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "letters_kgw13": {
+   "value": 103,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "span_kgw13_from": {
+   "value": 1590,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "span_kgw13_to": {
+   "value": 1599,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "letters_kgw14": {
+   "value": 121,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "span_kgw14_from": {
+   "value": 1599,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "span_kgw14_to": {
+   "value": 1603,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "letters_kgw15": {
+   "value": 144,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "span_kgw15_from": {
+   "value": 1603,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "span_kgw15_to": {
+   "value": 1607,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "letters_kgw16": {
+   "value": 150,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "span_kgw16_from": {
+   "value": 1607,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "span_kgw16_to": {
+   "value": 1611,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "letters_kgw17": {
+   "value": 202,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "span_kgw17_from": {
+   "value": 1612,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "span_kgw17_to": {
+   "value": 1620,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "letters_kgw18": {
+   "value": 214,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "span_kgw18_from": {
+   "value": 1601,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "span_kgw18_to": {
+   "value": 1630,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "partners_normalised": {
+   "value": 231,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII); names cut at ' IN <Ort>' and case-folded, no identity resolution"
+  },
+  "top_partner_n": {
+   "value": 82,
+   "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
+  },
+  "sent_la": {
+   "value": 325702,
+   "source": "kepler-prim/agent_context.json: languages (stanza sentence corpus)"
+  },
+  "sent_de": {
+   "value": 137435,
+   "source": "kepler-prim/agent_context.json: languages (stanza sentence corpus)"
+  },
+  "sent_fr": {
+   "value": 14375,
+   "source": "kepler-prim/agent_context.json: languages (stanza sentence corpus)"
+  },
+  "sent_en": {
+   "value": 9209,
+   "source": "kepler-prim/agent_context.json: languages (stanza sentence corpus)"
+  },
+  "sent_la_pct": {
+   "value": 66.9,
+   "source": "kepler-prim/agent_context.json"
+  },
+  "sent_de_pct": {
+   "value": 28.2,
+   "source": "kepler-prim/agent_context.json"
+  },
+  "sec_docs": {
+   "value": 18,
+   "source": "PDAI kepler-sec: directories with pdai-config.json or biblio.xml"
+  },
+  "sec_pages": {
+   "value": 4914,
+   "source": "PDAI kepler-sec: page folders"
+  },
+  "kep_docs": {
+   "value": 8,
+   "source": "PDAI kepleriana-munich-2024"
+  },
+  "kep_pages": {
+   "value": 101,
+   "source": "PDAI kepleriana-munich-2024"
+  }
+ },
+ "notes": [
+  "kgw-caspar-ia has no page count in the data and is not part of the KGW volume count."
+ ]
+}
