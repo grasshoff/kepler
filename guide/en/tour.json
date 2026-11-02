@@ -1,0 +1,604 @@
+{
+ "slug": "kepler",
+ "lang": "en",
+ "viewport": [
+  1280,
+  800
+ ],
+ "captured": "2026-10-27 09:31",
+ "title": "A tour of the Collected Works",
+ "lead": "From the volumes of the Collected Works through the correspondence to the Astronomia nova: how to read, select passages, have them explained and translated, jump, cite and ask the collection.",
+ "steps": [
+  {
+   "id": "bestand",
+   "kind": "card",
+   "card": {
+    "kicker": "Johannes Kepler · Collected Works",
+    "title": "26 volumes, 14,277 pages",
+    "figures": [
+     {
+      "v": "6",
+      "k": "volumes of letters"
+     },
+     {
+      "v": "934",
+      "k": "letters, 1590 to 1630"
+     },
+     {
+      "v": "325,702",
+      "k": "Latin sentences"
+     },
+     {
+      "v": "137,435",
+      "k": "German sentences"
+     }
+    ],
+    "lines": [
+     "Edited by the Kepler Commission of the Bavarian Academy of Sciences, founded by Walther von Dyck and Max Caspar"
+    ]
+   },
+   "frame": null,
+   "pre": null,
+   "caption": "The Collected Works: 26 volumes, 934 letters.",
+   "key": [],
+   "target": null,
+   "clicks": 0,
+   "focus": null,
+   "zoom": null,
+   "chrome": true,
+   "hold": 8,
+   "tour": true,
+   "cards": [],
+   "url": "https://famulus.lettre.ai/kepler/"
+  },
+  {
+   "id": "briefwechsel",
+   "frame": "frames/01.webp",
+   "pre": null,
+   "caption": "The correspondence: 934 letters from 1590 to 1630 – here Kepler to Galileo, 1597.",
+   "key": [],
+   "target": null,
+   "clicks": 0,
+   "focus": [
+    0.5004,
+    0.06,
+    0.4996,
+    0.94
+   ],
+   "zoom": null,
+   "chrome": true,
+   "hold": 6,
+   "tour": true,
+   "cards": [],
+   "url": "https://famulus.lettre.ai/kepler/kepler-prim/kgw-13?p=160"
+  },
+  {
+   "id": "open",
+   "frame": "frames/02.webp",
+   "pre": null,
+   "caption": "Astronomia nova, 1609, chapter LVIII: the facsimile on the left, the transcription on the right.",
+   "key": [],
+   "target": null,
+   "clicks": 0,
+   "focus": [
+    0.5004,
+    0.06,
+    0.4996,
+    0.94
+   ],
+   "zoom": null,
+   "chrome": true,
+   "hold": 4.5,
+   "tour": true,
+   "cards": [
+    "blaettern",
+    "zitieren"
+   ],
+   "url": "https://famulus.lettre.ai/kepler/kepler-prim/kgw-03?p=362"
+  },
+  {
+   "id": "next",
+   "frame": "frames/03.webp",
+   "pre": null,
+   "caption": "The arrow keys turn the pages: → forward, ← back.",
+   "key": [
+    "→"
+   ],
+   "target": null,
+   "clicks": 0,
+   "focus": [
+    0.6168,
+    0.0075,
+    0.121,
+    0.045
+   ],
+   "zoom": null,
+   "chrome": true,
+   "hold": 3.2,
+   "tour": true,
+   "cards": [
+    "blaettern"
+   ],
+   "url": "https://famulus.lettre.ai/kepler/kepler-prim/kgw-03?p=363"
+  },
+  {
+   "id": "transkription",
+   "frame": "frames/04.webp",
+   "pre": null,
+   "caption": "The transcription is structured text: paragraphs, figures, formulas and notes as validated XML.",
+   "key": [],
+   "target": [
+    0.9057,
+    0.11,
+    0.0607,
+    0.0375
+   ],
+   "clicks": 1,
+   "focus": [
+    0.5004,
+    0.06,
+    0.4996,
+    0.94
+   ],
+   "zoom": null,
+   "chrome": true,
+   "hold": 6,
+   "tour": true,
+   "cards": [],
+   "url": "https://famulus.lettre.ai/kepler/kepler-prim/kgw-03?p=363"
+  },
+  {
+   "id": "sentence",
+   "frame": "frames/05.webp",
+   "pre": "frames/05a.webp",
+   "caption": "A double click selects a sentence – here the conclusion: “Ergo ellipsis est Planetae iter”, so the planet's path is an ellipse.",
+   "key": [
+    "2× click"
+   ],
+   "target": [
+    0.6334,
+    0.3958,
+    0.0031,
+    0.005
+   ],
+   "clicks": 2,
+   "focus": [
+    0.6209,
+    0.3852,
+    0.1553,
+    0.0262
+   ],
+   "zoom": 1.35,
+   "chrome": true,
+   "hold": 4.5,
+   "tour": true,
+   "cards": [
+    "auswahl"
+   ],
+   "url": "https://famulus.lettre.ai/kepler/kepler-prim/kgw-03?p=363"
+  },
+  {
+   "id": "uebersetzung",
+   "frame": "frames/06.webp",
+   "pre": null,
+   "caption": "Translation: the same passage in your language, bound to the collection's terminology.",
+   "key": [],
+   "target": [
+    0.9781,
+    0.3226,
+    0.0219,
+    0.1544
+   ],
+   "clicks": 1,
+   "focus": [
+    0.7031,
+    0.06,
+    0.2969,
+    0.94
+   ],
+   "zoom": null,
+   "chrome": true,
+   "hold": 5,
+   "tour": true,
+   "cards": [
+    "uebersetzung",
+    "sprache"
+   ],
+   "url": "https://famulus.lettre.ai/kepler/kepler-prim/kgw-03?p=363&bedeutung=1"
+  },
+  {
+   "id": "linguistik",
+   "kind": "card",
+   "card": {
+    "kicker": "Linguistic analysis",
+    "title": "Latin and German, sentence by sentence",
+    "figures": [
+     {
+      "v": "458,404",
+      "k": "sentences analysed"
+     },
+     {
+      "v": "12,196,549",
+      "k": "words with base form and part of speech"
+     }
+    ],
+    "lines": [
+     "Every form traced to its base form, in Kepler's Latin as in the Early New High German of his letters"
+    ]
+   },
+   "frame": null,
+   "pre": null,
+   "caption": "Linguistic analysis: 458,404 sentences, every word with base form and part of speech.",
+   "key": [],
+   "target": null,
+   "clicks": 0,
+   "focus": null,
+   "zoom": null,
+   "chrome": true,
+   "hold": 7,
+   "tour": true,
+   "cards": [],
+   "url": "https://famulus.lettre.ai/kepler/"
+  },
+  {
+   "id": "paragraph",
+   "frame": "frames/07.webp",
+   "pre": "frames/07a.webp",
+   "caption": "Three clicks select the whole paragraph. Esc clears the selection, ⌘C copies it.",
+   "key": [
+    "3× click"
+   ],
+   "target": [
+    0.5844,
+    0.2991,
+    0.0031,
+    0.005
+   ],
+   "clicks": 3,
+   "focus": [
+    0.5719,
+    0.2885,
+    0.1479,
+    0.0262
+   ],
+   "zoom": null,
+   "chrome": true,
+   "hold": 3.5,
+   "tour": false,
+   "cards": [
+    "auswahl"
+   ],
+   "url": "https://famulus.lettre.ai/kepler/kepler-prim/kgw-03?p=363"
+  },
+  {
+   "id": "jump",
+   "frame": "frames/08.webp",
+   "pre": null,
+   "caption": "Page field: 23 and Enter jumps to the book's introduction.",
+   "key": [
+    "23",
+    "Enter"
+   ],
+   "target": [
+    0.6482,
+    0.0075,
+    0.0297,
+    0.045
+   ],
+   "clicks": 1,
+   "focus": [
+    0.6168,
+    0.0075,
+    0.121,
+    0.045
+   ],
+   "zoom": null,
+   "chrome": true,
+   "hold": 4,
+   "tour": true,
+   "cards": [
+    "blaettern",
+    "zitieren"
+   ],
+   "url": "https://famulus.lettre.ai/kepler/kepler-prim/kgw-03?p=24"
+  },
+  {
+   "id": "reply",
+   "frame": "frames/09.webp",
+   "pre": "frames/09a.webp",
+   "caption": "Kepler's definition of gravity: a mutual bodily tendency of kindred bodies to unite.",
+   "key": [],
+   "target": [
+    0.5844,
+    0.3991,
+    0.0031,
+    0.005
+   ],
+   "clicks": 2,
+   "focus": [
+    0.5543,
+    0.3885,
+    0.3918,
+    0.0585
+   ],
+   "zoom": 1.5,
+   "chrome": true,
+   "hold": 5.5,
+   "tour": true,
+   "cards": [
+    "zitieren"
+   ],
+   "url": "https://famulus.lettre.ai/kepler/kepler-prim/kgw-03?p=24"
+  },
+  {
+   "id": "zoom",
+   "frame": "frames/10.webp",
+   "pre": null,
+   "caption": "↑ and ↓ zoom the facsimile; scrolling moves the view.",
+   "key": [
+    "↑",
+    "↑",
+    "↑"
+   ],
+   "target": null,
+   "clicks": 0,
+   "focus": [
+    0.0,
+    0.06,
+    0.5004,
+    0.94
+   ],
+   "zoom": null,
+   "chrome": true,
+   "hold": 3.5,
+   "tour": true,
+   "cards": [
+    "ansicht"
+   ],
+   "url": "https://famulus.lettre.ai/kepler/kepler-prim/kgw-03?p=24"
+  },
+  {
+   "id": "layout-text",
+   "frame": "frames/11.webp",
+   "pre": null,
+   "caption": "The button at the top right cycles the view: facsimile, both, text – and synopsis where the edition brings a translation.",
+   "key": [],
+   "target": [
+    0.8915,
+    0.0112,
+    0.0644,
+    0.0375
+   ],
+   "clicks": 1,
+   "focus": [
+    0.8997,
+    0.0112,
+    0.0563,
+    0.0375
+   ],
+   "zoom": null,
+   "chrome": true,
+   "hold": 3,
+   "tour": true,
+   "cards": [
+    "ansicht"
+   ],
+   "url": "https://famulus.lettre.ai/kepler/kepler-prim/kgw-03?p=24"
+  },
+  {
+   "id": "menu",
+   "frame": "frames/12.webp",
+   "pre": null,
+   "caption": "The ☰ menu: arrangement, language, interface, zoom, collections and tools.",
+   "key": [],
+   "target": [
+    0.0069,
+    0.0075,
+    0.0281,
+    0.045
+   ],
+   "clicks": 1,
+   "focus": [
+    0.0,
+    0.06,
+    0.2188,
+    0.94
+   ],
+   "zoom": null,
+   "chrome": true,
+   "hold": 4.5,
+   "tour": true,
+   "cards": [
+    "menue"
+   ],
+   "url": "https://famulus.lettre.ai/kepler/kepler-prim/kgw-03?p=24"
+  },
+  {
+   "id": "ui-sprache",
+   "frame": "frames/13.webp",
+   "pre": null,
+   "caption": "Under “Interface” you choose the viewer's language: the tabs on the right switch at once.",
+   "key": [],
+   "target": [
+    0.0133,
+    0.4763,
+    0.024,
+    0.0262
+   ],
+   "clicks": 1,
+   "focus": [
+    0.0,
+    0.4238,
+    0.218,
+    0.1013
+   ],
+   "zoom": null,
+   "chrome": true,
+   "hold": 4,
+   "tour": false,
+   "cards": [
+    "sprache",
+    "menue"
+   ],
+   "url": "https://famulus.lettre.ai/kepler/kepler-prim/kgw-03?p=24&ui=de"
+  },
+  {
+   "id": "fullscreen",
+   "frame": "frames/14.webp",
+   "pre": null,
+   "caption": "#F fills the screen with the page, Esc returns.",
+   "key": [
+    "#",
+    "F"
+   ],
+   "target": null,
+   "clicks": 0,
+   "focus": [
+    0.0,
+    0.06,
+    1.0,
+    0.94
+   ],
+   "zoom": null,
+   "chrome": false,
+   "hold": 3.5,
+   "tour": true,
+   "cards": [
+    "ansicht"
+   ],
+   "url": "https://famulus.lettre.ai/kepler/kepler-prim/kgw-03?p=24&ui=en"
+  },
+  {
+   "id": "anfrage",
+   "frame": "frames/15.webp",
+   "pre": null,
+   "caption": "Query: a question to the whole collection, read in the context of this page.",
+   "key": [
+    "?"
+   ],
+   "target": [
+    0.9781,
+    0.7478,
+    0.0219,
+    0.0913
+   ],
+   "clicks": 1,
+   "focus": [
+    0.7031,
+    0.06,
+    0.2969,
+    0.94
+   ],
+   "zoom": null,
+   "chrome": true,
+   "hold": 4,
+   "tour": true,
+   "cards": [
+    "anfrage"
+   ],
+   "url": "https://famulus.lettre.ai/kepler/kepler-prim/kgw-03?p=24&ui=en&bedeutung=1"
+  },
+  {
+   "id": "indizes",
+   "kind": "card",
+   "card": {
+    "kicker": "Collection-wide indices · as of today",
+    "title": "Across every volume",
+    "figures": [
+     {
+      "v": "1,952",
+      "k": "persons"
+     },
+     {
+      "v": "525",
+      "k": "places"
+     },
+     {
+      "v": "626",
+      "k": "dates"
+     },
+     {
+      "v": "145",
+      "k": "technical terms, at 411,389 places"
+     }
+    ]
+   },
+   "frame": null,
+   "pre": null,
+   "caption": "Collection-wide indices: 1,952 persons, 525 places, 145 technical terms at 411,389 places.",
+   "key": [],
+   "target": null,
+   "clicks": 0,
+   "focus": null,
+   "zoom": null,
+   "chrome": true,
+   "hold": 8,
+   "tour": true,
+   "cards": [],
+   "url": "https://famulus.lettre.ai/kepler/"
+  },
+  {
+   "id": "ziel",
+   "kind": "card",
+   "card": {
+    "kicker": "The goal",
+    "title": "Kepler's work fully opened up",
+    "figures": [
+     {
+      "v": "14,277",
+      "k": "pages of the Collected Works transcribed"
+     },
+     {
+      "v": "934",
+      "k": "letters in the register"
+     }
+    ],
+    "lines": [
+     "Every text transcribed and opened up for the best language models, in context",
+     "Every page with a fixed address, citation and provenance",
+     "Collection-wide indices of persons, places, dates and technical terms",
+     "Searches in fractions of a second"
+    ]
+   },
+   "frame": null,
+   "pre": null,
+   "caption": "The goal: every text transcribed, opened up for the best language models, with collection-wide indices.",
+   "key": [],
+   "target": null,
+   "clicks": 0,
+   "focus": null,
+   "zoom": null,
+   "chrome": true,
+   "hold": 10,
+   "tour": true,
+   "cards": [],
+   "url": "https://famulus.lettre.ai/kepler/"
+  },
+  {
+   "id": "ausblick",
+   "kind": "card",
+   "card": {
+    "kicker": "Outlook",
+    "title": "What Famulus makes possible",
+    "lines": [
+     "Famulus follows how Kepler wins the laws of planetary motion from Tycho Brahe's observations",
+     "It shows how hypotheses are tested, rejected and replaced – from the circle through the oval to the ellipse",
+     "In the correspondence the objections and answers of his contemporaries become visible"
+    ]
+   },
+   "frame": null,
+   "pre": null,
+   "caption": "Outlook: Famulus follows Kepler's path to the laws of planetary motion and his contemporaries' objections.",
+   "key": [],
+   "target": null,
+   "clicks": 0,
+   "focus": null,
+   "zoom": null,
+   "chrome": true,
+   "hold": 13,
+   "tour": true,
+   "cards": [],
+   "url": "https://famulus.lettre.ai/kepler/"
+  }
+ ]
+}

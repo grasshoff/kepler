@@ -46,11 +46,11 @@
    "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
   },
   "letters_day": {
-   "value": 856,
+   "value": 857,
    "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
   },
   "letters_month": {
-   "value": 36,
+   "value": 35,
    "source": "kepler-prim/register/register.json and letters.parquet (text-derived from running letter heads, KGW XIII–XVIII)"
   },
   "letters_year": {
@@ -181,14 +181,6 @@
    "value": 28.2,
    "source": "kepler-prim/agent_context.json"
   },
-  "sec_docs": {
-   "value": 18,
-   "source": "PDAI kepler-sec: directories with pdai-config.json or biblio.xml"
-  },
-  "sec_pages": {
-   "value": 4914,
-   "source": "PDAI kepler-sec: page folders"
-  },
   "kep_docs": {
    "value": 8,
    "source": "PDAI kepleriana-munich-2024"
@@ -196,6 +188,42 @@
   "kep_pages": {
    "value": 101,
    "source": "PDAI kepleriana-munich-2024"
+  },
+  "kgw_xml": {
+   "value": 14277,
+   "source": "PDAI kepler-prim: page folders with their transcription in the volumes counted by kgw_vols"
+  },
+  "ling_sentences": {
+   "value": 458404,
+   "source": "kepler-prim_corpus.duckdb stz_sentences"
+  },
+  "ling_tokens": {
+   "value": 12196549,
+   "source": "kepler-prim_spacy.duckdb sp_token"
+  },
+  "idx_persons": {
+   "value": 3363,
+   "source": "_register/register.duckdb: distinct individuals (ind_einzelding) mentioned in kepler-prim (ind_nennung)"
+  },
+  "idx_places": {
+   "value": 758,
+   "source": "_register/register.duckdb: distinct individuals (ind_einzelding) mentioned in kepler-prim (ind_nennung)"
+  },
+  "idx_institutions": {
+   "value": 61,
+   "source": "_register/register.duckdb: distinct individuals (ind_einzelding) mentioned in kepler-prim (ind_nennung)"
+  },
+  "idx_dates": {
+   "value": 617,
+   "source": "kepler-prim_famulus.duckdb fq_mentions DATE"
+  },
+  "idx_concepts": {
+   "value": 145,
+   "source": "kepler-prim_corpus.duckdb stz_begriffe: distinct technical terms found in the texts"
+  },
+  "idx_concept_mentions": {
+   "value": 411389,
+   "source": "kepler-prim_corpus.duckdb stz_begriffe: their occurrences"
   }
  },
  "notes": [

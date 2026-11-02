@@ -4,16 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Johannes Kepler — Gesammelte Werke und Briefwechsel</title>
-  <meta name="description" content="Portal zu den digitalisierten Gesammelten Werken Johannes Keplers mit Briefregister, Sekundärliteratur und der Geschichte der Kepler-Kommission.">
+  <meta name="description" content="Portal zu den digitalisierten Gesammelten Werken Johannes Keplers mit Briefregister und der Geschichte der Kepler-Kommission.">
   <meta name="author" content="Gerd Graßhoff">
   <meta property="og:title" content="Johannes Kepler — Gesammelte Werke und Briefwechsel">
-  <meta property="og:description" content="Portal zu den digitalisierten Gesammelten Werken Johannes Keplers mit Briefregister, Sekundärliteratur und der Geschichte der Kepler-Kommission.">
+  <meta property="og:description" content="Portal zu den digitalisierten Gesammelten Werken Johannes Keplers mit Briefregister und der Geschichte der Kepler-Kommission.">
   <meta property="og:type" content="website">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,460;0,9..144,560;1,9..144,460&family=Source+Sans+3:ital,wght@0,400;0,560;0,650;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,560;1,8..60,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/landing.css?v=20261025010049">
+  <link rel="stylesheet" href="assets/fonts.css?v=20261102234157">
+  <link rel="stylesheet" href="assets/landing.css?v=20261102234157">
 <!-- famulus:publisher:start -->
 <meta name="referrer" content="no-referrer-when-downgrade">
 <meta name="publisher" content="OpenScienceTechnology GmbH">
@@ -27,6 +25,7 @@
     <div class="mast-inner">
       <p class="brand"><a href="./"><span>Kepler</span> Gesammelte Werke</a></p>
       <nav aria-label="Abschnitte">
+        <a href="lesen/">Anleitung</a>
         <a href="bestand/">Bestand</a>
         <a href="#galerie">Blätter</a>
         <a href="#quellen">Quellen</a>
@@ -42,17 +41,29 @@
         <h1>Johannes Kepler.<br>Werke und Briefe im Volltext.</h1>
         <p class="lead">Die Gesammelten Werke Keplers liegen in der PDAI als 26 Bände mit 14.277 Seiten vor. Aus den Kopfzeilen der Briefbände hat die PDAI ein Register von 934 Briefen aus den Jahren 1590 bis 1630 gewonnen. Diese Seite zeigt den Bestand, seine Sprachen und die Lücken.</p>
         <p class="byline">Gerd Graßhoff, Humboldt-Universität zu Berlin, Forschungsinstitut des Deutschen Museums</p>
-        <p class="credit">Grundlage ist die Ausgabe Johannes Kepler, Gesammelte Werke, im Auftrag der Kepler-Kommission der Bayerischen Akademie der Wissenschaften, München: C. H. Beck. Die Rechte für die öffentliche Bereitstellung der Digitalisate sind nicht geklärt; diese Seite zeigt nur Ausschnitte.</p>
+        <p class="credit">Grundlage ist die Ausgabe Johannes Kepler, Gesammelte Werke, herausgegeben von der Kepler-Kommission der Bayerischen Akademie der Wissenschaften (im Auftrag der Deutschen Forschungsgemeinschaft und der Bayerischen Akademie der Wissenschaften), München: C. H. Beck. Die Rechte für die öffentliche Bereitstellung der Digitalisate sind nicht geklärt; diese Seite zeigt nur Ausschnitte.</p>
         
-        <div class="figures" style="--cols:5" aria-label="Der Bestand in Zahlen"><div><span class="v">26</span><span class="k">Bände der Gesammelten Werke</span></div><div><span class="v">14.277</span><span class="k">Seiten</span></div><div><span class="v">934</span><span class="k">Briefe im Register</span></div><div><span class="v">18</span><span class="k">Werke der Sekundärliteratur</span></div><div><span class="v">325.702</span><span class="k">lateinische Sätze im Korpus</span></div></div>
+        <div class="figures" style="--cols:4" aria-label="Der Bestand in Zahlen"><div><span class="v">26</span><span class="k">Bände der Gesammelten Werke</span></div><div><span class="v">14.277</span><span class="k">Seiten</span></div><div><span class="v">934</span><span class="k">Briefe im Register</span></div><div><span class="v">325.702</span><span class="k">lateinische Sätze im Korpus</span></div></div>
         <form class="ask" action="https://famulus.lettre.ai/live/kepler-gw/" method="get" target="_blank" rel="noopener" aria-label="Eine Frage an die Edition">
           <label for="ask-kepler">Eine Frage an die Edition</label>
           <div class="ask-row"><input id="ask-kepler" name="anfrage" type="text" required minlength="3" placeholder="z. B. Welche Hauptthemen behandeln die Bände je Jahrzehnt?" autocomplete="off">
           <input type="hidden" name="bedeutung" value="1"><button type="submit">Fragen</button></div>
           <p class="ask-hint">Famulus liest die Frage, bestimmt den Evidenzraum und antwortet mit Belegen – in der Spalte „Anfrage“ des Viewers.</p>
         </form>
+
       </section>
 
+      <section class="guide-band" id="rundgang" aria-labelledby="rundgang-t">
+        <div class="guide-head">
+          <p class="kicker"><span data-gl="de" lang="de">Rundgang</span><span data-gl="en" lang="en">Guided tour</span></p>
+          <h2 id="rundgang-t"><span data-gl="de" lang="de">Ein Rundgang durch die Gesammelten Werke</span><span data-gl="en" lang="en">A tour of the Collected Works</span></h2>
+          <p class="lead"><span data-gl="de" lang="de">Von den Bänden der Gesammelten Werke über den Briefwechsel bis zur Astronomia nova: wie man liest, Stellen wählt, erläutern und übersetzen lässt, springt, zitiert und die Sammlung befragt.</span><span data-gl="en" lang="en">From the volumes of the Collected Works through the correspondence to the Astronomia nova: how to read, select passages, have them explained and translated, jump, cite and ask the collection.</span></p>
+          <div class="guide-lang" role="group" aria-label="Sprache · Language"><button type="button" data-guide-lang-set="de">DE</button><button type="button" data-guide-lang-set="en">EN</button></div>
+        </div>
+        <div class="gp" data-guide="tour" data-base="guide/" data-v="20261102234157" data-open="https://famulus.lettre.ai/kepler/kgw-03?p=363" data-all="lesen/"></div>
+        <div class="guide-cards" aria-label="Anleitungen"><article class="guide-card" id="g-blaettern"><div class="gp" data-guide="card:blaettern" data-base="guide/" data-v="20261102234157"></div><div class="gc-body"><p class="gc-num">01</p><h3><span data-gl="de" lang="de">Blättern und springen</span><span data-gl="en" lang="en">Turn pages and jump</span></h3><p><span data-gl="de" lang="de">← und → blättern Seite für Seite. Eine Zahl im Seitenfeld oben und Enter springt direkt dorthin; daneben steht die gedruckte Seitenzahl des Bandes.</span><span data-gl="en" lang="en">← and → turn the pages one by one. A number in the page field at the top and Enter jumps straight there; the printed page number of the volume stands beside it.</span></p><div class="gc-keys" data-gl="de" lang="de"><kbd class="gk">←</kbd><kbd class="gk">→</kbd><kbd class="gk">Enter</kbd></div><div class="gc-keys" data-gl="en" lang="en"><kbd class="gk">←</kbd><kbd class="gk">→</kbd><kbd class="gk">Enter</kbd></div><p class="gc-go"><a class="try" href="https://famulus.lettre.ai/kepler/kepler-prim/kgw-03?p=362" target="_blank" rel="noopener"><span data-gl="de" lang="de">Ausprobieren ↗</span><span data-gl="en" lang="en">Try it ↗</span></a><a href="#rundgang" data-guide-jump="blaettern"><span data-gl="de" lang="de">Im Rundgang ansehen</span><span data-gl="en" lang="en">Watch in the tour</span></a></p></div></article><article class="guide-card" id="g-auswahl"><div class="gp" data-guide="card:auswahl" data-base="guide/" data-v="20261102234157"></div><div class="gc-body"><p class="gc-num">02</p><h3><span data-gl="de" lang="de">Text auswählen</span><span data-gl="en" lang="en">Select text</span></h3><p><span data-gl="de" lang="de">Ein Klick wählt ein Wort, zwei Klicks einen Satz, drei einen Absatz. Ziehen wählt frei, Shift+Klick erweitert, Esc hebt auf, ⌘C kopiert. Jedes Werkzeug rechts liest diese Auswahl.</span><span data-gl="en" lang="en">One click selects a word, two a sentence, three a paragraph. Dragging selects freely, Shift+click extends, Esc clears, ⌘C copies. Every tool on the right reads this selection.</span></p><div class="gc-keys" data-gl="de" lang="de"><kbd class="gk">1× Klick</kbd><kbd class="gk">2× Klick</kbd><kbd class="gk">3× Klick</kbd><kbd class="gk">Esc</kbd><kbd class="gk">⌘C</kbd></div><div class="gc-keys" data-gl="en" lang="en"><kbd class="gk">1× click</kbd><kbd class="gk">2× click</kbd><kbd class="gk">3× click</kbd><kbd class="gk">Esc</kbd><kbd class="gk">⌘C</kbd></div><p class="gc-go"><a class="try" href="https://famulus.lettre.ai/kepler/kepler-prim/kgw-03?p=363" target="_blank" rel="noopener"><span data-gl="de" lang="de">Ausprobieren ↗</span><span data-gl="en" lang="en">Try it ↗</span></a><a href="#rundgang" data-guide-jump="auswahl"><span data-gl="de" lang="de">Im Rundgang ansehen</span><span data-gl="en" lang="en">Watch in the tour</span></a></p></div></article><article class="guide-card" id="g-erlaeuterung"><div class="gc-body"><p class="gc-num">03</p><h3><span data-gl="de" lang="de">Die Stelle verstehen</span><span data-gl="en" lang="en">Understand the passage</span></h3><p><span data-gl="de" lang="de">Der Reiter Textverständnis am rechten Rand liest die gewählte Stelle im Zusammenhang ihrer Seite und ihres Dokuments. Er gibt das Verständnis des Texts, keine vollständige Analyse – die gibt die Anfrage, mit Belegen. Die Spalte lässt sich am linken Rand breiter ziehen.</span><span data-gl="en" lang="en">The Text comprehension tab on the right edge reads the selected passage in the context of its page and document. It gives an understanding of the text, not a full analysis – the Query gives that, with evidence. Drag the column&#x27;s left edge to widen it.</span></p><div class="gc-keys" data-gl="de" lang="de"><kbd class="gk">Textverständnis</kbd></div><div class="gc-keys" data-gl="en" lang="en"><kbd class="gk">Text comprehension</kbd></div><p class="gc-go"></p></div></article><article class="guide-card" id="g-uebersetzung"><div class="gp" data-guide="card:uebersetzung" data-base="guide/" data-v="20261102234157"></div><div class="gc-body"><p class="gc-num">04</p><h3><span data-gl="de" lang="de">Übersetzen</span><span data-gl="en" lang="en">Translate</span></h3><p><span data-gl="de" lang="de">Der Reiter Übersetzung überträgt die gewählte Stelle oder mit „Seite“ die ganze Seite in Deutsch, Englisch, Französisch, Italienisch oder Polnisch, gebunden an die Fachbegriffe der Sammlung. „Vorausübersetzen“ bereitet die nächsten Seiten vor.</span><span data-gl="en" lang="en">The Translation tab renders the selected passage, or with “Page” the whole page, in German, English, French, Italian or Polish, bound to the collection&#x27;s terminology. “Translate ahead” prepares the next pages.</span></p><div class="gc-keys" data-gl="de" lang="de"><kbd class="gk">Stelle</kbd><kbd class="gk">Seite</kbd></div><div class="gc-keys" data-gl="en" lang="en"><kbd class="gk">Passage</kbd><kbd class="gk">Page</kbd></div><p class="gc-go"><a class="try" href="https://famulus.lettre.ai/kepler/kepler-prim/kgw-03?p=363&amp;bedeutung=1" target="_blank" rel="noopener"><span data-gl="de" lang="de">Ausprobieren ↗</span><span data-gl="en" lang="en">Try it ↗</span></a><a href="#rundgang" data-guide-jump="uebersetzung"><span data-gl="de" lang="de">Im Rundgang ansehen</span><span data-gl="en" lang="en">Watch in the tour</span></a></p></div></article><article class="guide-card" id="g-woerterbuch"><div class="gc-body"><p class="gc-num">05</p><h3><span data-gl="de" lang="de">Nachschlagen</span><span data-gl="en" lang="en">Look it up</span></h3><p><span data-gl="de" lang="de">Ein Wort anklicken, dann den Reiter Wörterbuch: das Wort wird auf sein Lemma zurückgeführt, mit dem Eintrag der Sammlung, wo es einen gibt, und jeder Belegstelle in allen Bänden.</span><span data-gl="en" lang="en">Click a word, then the Dictionary tab: the word is traced to its lemma, with the collection&#x27;s entry where there is one and every occurrence across all volumes.</span></p><div class="gc-keys" data-gl="de" lang="de"><kbd class="gk">1× Klick</kbd><kbd class="gk">Wörterbuch</kbd></div><div class="gc-keys" data-gl="en" lang="en"><kbd class="gk">1× click</kbd><kbd class="gk">Dictionary</kbd></div><p class="gc-go"></p></div></article><article class="guide-card" id="g-anfrage"><div class="gp" data-guide="card:anfrage" data-base="guide/" data-v="20261102234157"></div><div class="gc-body"><p class="gc-num">06</p><h3><span data-gl="de" lang="de">Die Sammlung befragen</span><span data-gl="en" lang="en">Ask the collection</span></h3><p><span data-gl="de" lang="de">Der Reiter Anfrage nimmt eine Frage in eigenen Worten. Famulus liest sie im Zusammenhang der offenen Seite, bestimmt den Evidenzraum und antwortet mit Belegen, die ihre Seite öffnen.</span><span data-gl="en" lang="en">The Query tab takes a question in your own words. Famulus reads it in the context of the open page, determines the evidence space and answers with references that open their page.</span></p><div class="gc-keys" data-gl="de" lang="de"><kbd class="gk">Anfrage</kbd><kbd class="gk">Enter</kbd></div><div class="gc-keys" data-gl="en" lang="en"><kbd class="gk">Query</kbd><kbd class="gk">Enter</kbd></div><p class="gc-go"><a class="try" href="https://famulus.lettre.ai/kepler/kepler-prim/kgw-03?p=24&amp;bedeutung=1" target="_blank" rel="noopener"><span data-gl="de" lang="de">Ausprobieren ↗</span><span data-gl="en" lang="en">Try it ↗</span></a><a href="#rundgang" data-guide-jump="anfrage"><span data-gl="de" lang="de">Im Rundgang ansehen</span><span data-gl="en" lang="en">Watch in the tour</span></a></p></div></article></div>
+        <p class="guide-more"><a href="lesen/"><span data-gl="de" lang="de">Alle Anleitungen und Tasten →</span><span data-gl="en" lang="en">All guides and keys →</span></a></p>
+      </section>
       <section class="portals" aria-label="Einstiege">
 <article class="portal lead-card" id="bestand">
 <p class="mark">Erzählung 1</p>
@@ -64,13 +75,13 @@
 <article class="portal" id="briefe">
 <p class="mark">Erzählung 2</p>
 <h2>934 Briefe</h2>
-<p>Das Register ist aus den Briefköpfen der Bände XIII bis XVIII gewonnen, nicht aus einem gedruckten Verzeichnis. Es enthält 652 eingehende und 282 ausgehende Briefe; 856 tragen ein Datum auf den Tag genau.</p>
+<p>Das Register ist aus den Briefköpfen der Bände XIII bis XVIII gewonnen, nicht aus einem gedruckten Verzeichnis. Es enthält 652 eingehende und 282 ausgehende Briefe; 857 tragen ein Datum auf den Tag genau.</p>
 <p class="go-row"><a class="go" href="bestand/#k2">Briefe je Jahr</a><a class="go quiet" href="bestand/#k3">Briefpartner</a></p>
 </article>
 <article class="portal" id="edition">
 <p class="mark">Digitale Edition</p>
 <h2>Der Viewer</h2>
-<p>Faksimile und Transkription nebeneinander, mit Suche über Lemmata, Personen und Orte in den Bänden und in 18 Werken der Sekundärliteratur.</p>
+<p>Faksimile und Transkription nebeneinander, mit Suche über Lemmata, Personen und Orte in den Bänden.</p>
 <p class="go-row"><a class="go" href="https://famulus.lettre.ai/live/kepler-gw/" target="_blank" rel="noopener">Edition öffnen</a></p>
 </article>
 <article class="portal" id="kommission">
@@ -103,7 +114,7 @@
         <h2 id="quellen-t">Quellen und Bedingungen</h2>
         <p class="section-lead">Was diese Seite zeigt, stammt aus den folgenden Quellen.</p>
         <div class="sources">
-          <div><div class="source-item"><h3>Johannes Kepler, Gesammelte Werke</h3><p>Herausgegeben von Walther von Dyck und Max Caspar mit Franz Hammer; München: C. H. Beck. Bände und Erscheinungsjahre stehen im Viewer.</p><p class="meta">26 Bände · 14.277 Seiten</p><p><a class="go" href="https://famulus.lettre.ai/live/kepler-gw/" target="_blank" rel="noopener">Viewer öffnen</a></p></div><div class="source-item"><h3>Sekundärliteratur</h3><p>Die Sammlung kepler-sec enthält Sekundärliteratur zu Kepler.</p><p class="meta">18 Werke · 4.914 Seiten</p></div></div>
+          <div class="source-item"><h3>Johannes Kepler, Gesammelte Werke</h3><p>Herausgegeben von Walther von Dyck und Max Caspar mit Franz Hammer; München: C. H. Beck. Bände und Erscheinungsjahre stehen im Viewer.</p><p class="meta">26 Bände · 14.277 Seiten</p><p><a class="go" href="https://famulus.lettre.ai/live/kepler-gw/" target="_blank" rel="noopener">Viewer öffnen</a></p></div>
           <div class="source-item"><h3>Offene Punkte</h3><ol class="admission"><li>Rechte an den Digitalisaten der Gesammelten Werke: nicht geklärt.</li><li>Kein gedrucktes Briefverzeichnis liegt vor. Das Register ist aus den Briefköpfen gewonnen; bei 10 Briefen ist kein Datum lesbar.</li><li>Personen sind im Briefregister nicht aufgelöst: 326 Korrespondenten laut Register, 231 Namensformen nach Vereinheitlichung der Schreibung.</li><li>Band XVIII enthält Briefe aus den Jahren 1601 bis 1630 und überlappt die früheren Bände.</li></ol></div>
         </div>
       </section>
@@ -113,18 +124,20 @@
   <footer>
     <div class="wrap">
       <div><p>Kepler Gesammelte Werke</p><p>Gerd Graßhoff, Humboldt-Universität zu Berlin, Forschungsinstitut des Deutschen Museums</p></div>
-      <div><p><a href="data/manifest.json">Datenmanifest</a> · Stand 25. Oktober 2026</p></div>
+      <div><p><a href="data/manifest.json">Datenmanifest</a> · Stand 2. November 2026</p></div>
     </div>
     <div class="wrap"></div>
   </footer>
 
-  <script src="assets/vendor/d3.v7.min.js?v=20261025010049"></script>
-  <script src="data/bundle.js?v=20261025010049"></script>
-  <script src="assets/js/charts.js?v=20261025010049"></script>
-  <script src="assets/js/scrolly.js?v=20261025010049"></script>
+  <script src="assets/vendor/d3.v7.min.js?v=20261102234157"></script>
+  <script src="data/bundle.js?v=20261102234157"></script>
+  <script src="assets/js/charts.js?v=20261102234157"></script>
+  <script src="assets/js/guide.js?v=20261102234157"></script>
+  <script src="assets/js/guide-player.js?v=20261102234157"></script>
+  <script src="assets/js/scrolly.js?v=20261102234157"></script>
 <!-- famulus:publisher:start -->
 <p class="famulus-publisher" style="max-width:46rem;margin:2.5rem auto 1.5rem;padding:.7rem 16px 0;border-top:2px solid #c8a22a;font:13px/1.5 -apple-system,BlinkMacSystemFont,sans-serif;opacity:.8">Herausgegeben von der OpenScienceTechnology GmbH · <a href="/impressum/">Impressum</a> · <a href="/datenschutz/">Datenschutz</a></p>
-<script>(function(){try{var d=JSON.stringify({u:location.pathname,r:document.referrer,m:""});navigator.sendBeacon?navigator.sendBeacon("https://lettre.ngrok.dev/famulus-counter/api/hit",d):fetch("https://lettre.ngrok.dev/famulus-counter/api/hit",{method:'POST',body:d,keepalive:true,mode:'no-cors'})}catch(e){}})();</script>
+<script>(function(){try{var C="https://lettre.ngrok.dev/famulus-counter/api/hit",L=C.replace(/hit$/,'leave'),q=new URLSearchParams(location.search),v=Math.random().toString(36).slice(2,12),u=location.pathname;function S(a,b){navigator.sendBeacon?navigator.sendBeacon(a,b):fetch(a,{method:'POST',body:b,keepalive:true,mode:'no-cors'})}S(C,JSON.stringify({u:u,r:document.referrer,m:"",v:v,c:q.get('c')||q.get('utm_campaign')||''}));var a=0,t=document.visibilityState=='visible'?Date.now():0,s=0,x='',g='',k='';function sc(){var h=document.documentElement;s=Math.max(s,Math.min(100,Math.round((scrollY+innerHeight)/Math.max(h.scrollHeight,1)*100)))}addEventListener('scroll',sc,{passive:true});addEventListener('load',sc);sc();document.addEventListener('click',function(e){var l=e.target.closest&&e.target.closest('a[href]');if(l&&/^https?:$/.test(l.protocol)){var i=l.host==location.host;x=i?'in':'out';g=i?l.pathname+l.hash:l.host;k=(l.getAttribute('aria-label')||l.textContent||'').replace(/\s+/g,' ').trim().slice(0,80);B()}},true);function B(){S(L,JSON.stringify({u:u,v:v,d:Math.round((a+(t?Date.now()-t:0))/1000),s:s,x:x,t:g,k:k}))}function F(){if(t){a+=Date.now()-t;t=0}B()}document.addEventListener('visibilitychange',function(){document.visibilityState=='hidden'?F():t=Date.now()});addEventListener('pagehide',function(){if(t)F()})}catch(e){}})();</script>
 <noscript><img src="https://lettre.ngrok.dev/famulus-counter/api/hit.gif?u=/kepler/&amp;m=" width="1" height="1" alt=""></noscript>
 <!-- famulus:publisher:end -->
 </body>
