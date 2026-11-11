@@ -1,0 +1,792 @@
+---
+title: Reading Five Pages Deeply
+subtitle: Swerdlow on Ptolemy's Solar Model, Checked Assertion by Assertion, with Two Misprints Found
+running-title: A deep reading of Swerdlow's solar pages
+author:
+- name: Gerd Graßhoff
+  email: gerd.grasshoff@hu-berlin.de
+  orcid: 0000-0002-4450-357X
+  affiliations:
+  - name: Humboldt-Universität zu Berlin
+    department: Philosophisches Institut
+    city: Berlin
+    country: Germany
+  - name: Deutsches Museum
+    department: Forschungsinstitut
+    city: München
+    country: Germany
+date: '2026-11-10'
+lang: en
+bibliography: bibliography.bib
+abstract: 'Five pages of Noel Swerdlow''s posthumous *The Renaissance of Astronomy* (2026) set out Ptolemy''s solar
+  model:
+
+  the length of the year, the eccentric and the epicyclic form and their equivalence, the equation of centre,
+
+  Ptolemy''s derivation of the parameters from the seasons, and the later values of al-Battānī, az-Zarqāl and the
+
+  Alfonsine Tables. We read these pages deeply. Every assertion is quoted and the quotation verified against the
+
+  transcription. Every assertion is then checked as what it is: a property of the construction as a proposition
+
+  of a model written in the language astra/1, a statement that something follows as a step of a derivation with
+
+  its rule, a number as sexagesimal arithmetic or as a quantity computed from the model, parameters found from
+
+  observations as a determination through the model. Every result is shown with the crop of the page it checks.
+
+  Of 45 assertions, 35 are confirmed, one is a historical judgement that arithmetic cannot reach, and nine
+
+  differ from recomputation. Seven of the nine concern figures that Swerdlow reports from his sources and are
+
+  facts about those sources: Ptolemy''s rounded arcs of mean motion, al-Battānī''s maximum equation, and Ptolemy''s
+
+  eccentricity and apogee, which follow from his rounded arcs and not from the day counts of the seasons. Two
+
+  concern the page itself and are misprints: the sign rule for the equation of centre names the same condition
+
+  in both of its clauses, and the advance of al-Battānī''s apogee is printed as 16;37° where the two longitudes
+
+  on the page differ by 16;47°. The derivation of the equivalence, written out and checked step by step, shows
+
+  further that the parallelogram argument does not apply at the apsides. The reading is a record that runs,
+
+  every item of which points back to its paragraph.
+
+  '
+keywords:
+- history of astronomy
+- Ptolemy
+- close reading
+- verification
+- sexagesimal arithmetic
+- scholarly infrastructure
+license: CC BY-NC-ND 4.0
+expertise:
+  schema: famulus-expertise/1
+  subject:
+    question: What does it take to know that five pages of Swerdlow's exposition of Ptolemy's solar model are right,
+      and what is found when every assertion on them is checked?
+    sources:
+    - ref: fr:kepler-sec/Swerdlow2026/0052/p05
+      role: object
+      note: 'printed page 22, scan page 52: the seasons and the parameters Ptolemy finds from them'
+    - ref: fr:kepler-sec/Swerdlow2026/0052/p06
+      role: object
+      note: 'printed page 22, scan page 52: al-Battānī''s values as printed'
+    work: Noel Swerdlow, The Renaissance of Astronomy (2026), chapter 1, printed pages 17, 19, 20, 22 and 23
+    edition: Famulus collection kepler-sec, document Swerdlow2026, scan pages 47, 49, 50, 52 and 53 (scan page n
+      is printed page n − 30 in chapter 1)
+    method: 'A deep reading: every assertion on the pages is isolated, quoted, formalised and checked, and the check
+      is recorded so that another reader can run it again. Geometrical assertions are checked against astra/1 texts
+      written from the same pages; numbers are recomputed in sexagesimal arithmetic or computed from the model.'
+    limits:
+    - 'The reading covers five pages, not the chapter, and it covers what can be formalised: arithmetic, geometry,
+      and the consistency of the page with itself.'
+    - It does not check Swerdlow's historical claims against the sources he cites, except where the arithmetic on
+      the page or the model makes a claim testable.
+    - The checks of the derivations test truth on samples of the parameter space and match rules as schemas; they
+      are not formal proofs.
+    - The modern values Swerdlow uses are taken as given where he does not state them.
+    - The transcription is the OCR of the book's PDF; two quotations had to be written in the transcription's flattened
+      form of a fraction.
+    - '''Misprint'' is a judgement; Swerdlow''s manuscript was not seen.'
+    - Ptolemy's steps are not on the page and were not compared with the Almagest; al-Battānī's maximum equation
+      was not checked against al-Battānī's Zīj.
+  claims:
+  - id: C1
+    text: Of 45 assertions, 35 are confirmed, one is a historical judgement that arithmetic cannot reach, and nine
+      differ from recomputation.
+    section: sec-findings
+    status: gap
+    gap: 'The count is the report of the reading file readings/swerdlow-solar.yaml, for which the issue gives no
+      fr: address.'
+  - id: C2
+    text: 'Seven of the nine discrepancies concern figures that Swerdlow reports from his sources and are facts
+      about those sources: Ptolemy''s rounded arcs of mean motion, al-Battānī''s maximum equation, and Ptolemy''s
+      eccentricity and apogee.'
+    section: sec-findings
+    status: grounded
+    grounds:
+    - fr:kepler-sec/Swerdlow2026/0052/p05
+    - fr:kepler-sec/Swerdlow2026/0052/p06
+  - id: C3
+    text: Ptolemy's eccentricity and apogee follow from his rounded arcs of mean motion, to within what a computation
+      with a table of chords loses, and not from the day counts of the seasons.
+    section: sec-findings
+    status: grounded
+    grounds:
+    - fr:kepler-sec/Swerdlow2026/0052/p05
+  - id: C4
+    text: The sign rule for the equation of centre on page 22 names the same condition, κ̄ > 180°, in both of its
+      clauses; the model under Ptolemy's parametrisation gives c > 0° for κ̄ < 180° and c < 0° for κ̄ > 180°.
+    section: sec-findings
+    status: grounded
+    grounds:
+    - fr:astra/solar-eccentric
+    - fr:astra/solar-eccentric.ptolemy
+  - id: C5
+    text: The advance of al-Battānī's apogee is printed as 16;37°; the two longitudes on the page, 65;30° and 82;17°,
+      differ by 16;47°.
+    section: sec-findings
+    status: grounded
+    grounds:
+    - fr:kepler-sec/Swerdlow2026/0052/p06
+  - id: C6
+    text: The equivalence of the eccentric and the epicyclic form has hypotheses, R′ = R and r = e; lifting either
+      makes the conclusion fail, and no step uses a given it does not cite.
+    section: sec-findings
+    status: grounded
+    grounds:
+    - fr:astra/solar-equivalence-equal-radii
+  - id: C7
+    text: 'The parallelogram argument does not cover the apsides: at κ̄ = 0° and κ̄ = 180° the points O, E, S and
+      C lie on the apsidal line, and the derivation has three cases.'
+    section: sec-findings
+    status: grounded
+    grounds:
+    - fr:astra/solar-equivalence-equal-radii
+  - id: C8
+    text: The two cases are called misprints because the arithmetic of the sentence does not come out as printed,
+      the page image confirms the transcription, and a one-character change makes each sentence correct; Swerdlow's
+      manuscript has not been seen.
+    section: sec-limits
+    status: gap
+    gap: Swerdlow's manuscript is not among the sources of the issue; where the slip entered is left open.
+  agent:
+    summary: 'Deep reading of five pages of Noel Swerdlow''s The Renaissance of Astronomy (2026) on Ptolemy''s solar
+      model: printed pages 17, 19, 20, 22, 23. 45 assertions are quoted, formalised and checked; 35 are confirmed,
+      one is not checkable, nine differ from recomputation. Seven of the nine concern figures Swerdlow reports from
+      his sources and are facts about those sources, not errors of his page; two are judged misprints of the page.
+      The model read is Ptolemy''s, the text read is Swerdlow''s. The checks are not formal proofs; historical claims
+      are not checked against the sources Swerdlow cites.'
+    read_first:
+    - sec-pages
+    - sec-method
+    - sec-findings
+    - sec-limits
+    answers:
+    - Which assertions on Swerdlow's pages 17 to 23 about Ptolemy's solar model are confirmed, and which differ
+      from recomputation?
+    - Which discrepancies concern the page itself and which the sources Swerdlow reports?
+    - How does the sign rule for the equation of centre read according to the model?
+    - By how much does al-Battānī's apogee differ from Ptolemy's on the page?
+    - Do Ptolemy's eccentricity and apogee follow from the day counts of the seasons or from his rounded arcs?
+    - What is a deep reading, and what does an item of it hold?
+    terms:
+    - term: deep reading
+      meaning: every assertion on the pages is isolated, quoted, formalised and checked, and the check is recorded
+        so that another reader can run it again
+    - term: item
+      meaning: one assertion of the reading with its locus, quotation, kind, formalisation, printed result, attribution
+        and evidence
+    - term: attribution
+      meaning: whether the assertion is Swerdlow's own statement or arithmetic (print) or a figure he reports from
+        a source (reported); a discrepancy in the first is about the page, in the second about the source
+    - term: verdict
+      meaning: confirmed, discrepancy (with the recomputed value and the difference), not checkable (with the reason)
+        or quotation not found
+    - term: holds
+      meaning: 'for a geometrical assertion: the proposition holds over the model''s parameter space, or the step
+        of the derivation is true and licensed by its rule'
+    - term: misprint
+      meaning: 'a judgement: the arithmetic of the sentence does not come out as printed, the page image confirms
+        the transcription, and a one-character change makes the sentence correct'
+    do_not:
+    - 'Do not report the seven discrepancies in reported figures as errors of Swerdlow''s page: they are facts about
+      Ptolemy''s computation and about Regiomontanus''s report of al-Battānī.'
+    - 'Do not present the two misprints as established from the manuscript: the manuscript was not seen, and where
+      the slip entered is left open.'
+    - Do not treat the reading as a check of Swerdlow's historical claims against the sources he cites.
+    - Do not call the checks of the derivations formal proofs.
+    - 'Do not present the missing cases at the apsides as an error of the page: it is what the page''s one sentence
+      of argument leaves to the reader.'
+    - 'Do not cite al-Battānī''s recomputed maximum equation as 1;59,8°: that figure of the first version was truncated;
+      it is 1;59,9°.'
+    cite: 'Graßhoff, Gerd. Reading Five Pages Deeply: Swerdlow on Ptolemy''s Solar Model, Checked Assertion by Assertion,
+      with Two Misprints Found. Famulus Expertise Kepler, No. 2 (whole no. 3). Duisburg: OpenScienceTechnology,
+      2026. Version 1.0. https://famulus.lettre.ai/kepler/lettre/2/'
+    bibtex: "@article{grasshoff2026expertise-kepler-2,\n  author = {Graßhoff, Gerd},\n  title = {{Reading Five Pages\
+      \ Deeply: Swerdlow on Ptolemy's Solar Model, Checked Assertion by Assertion, with Two Misprints Found}},\n\
+      \  journal = {Famulus Expertise Kepler},\n  number = {2},\n  year = {2026},\n  date = {2026-11-10},\n  version\
+      \ = {1.0},\n  publisher = {OpenScienceTechnology},\n  address = {Duisburg},\n  url = {https://famulus.lettre.ai/kepler/lettre/2/},\n\
+      \  note = {Version 1.0. Famulus Expertise, whole no. 3},\n  langid = {english}\n}"
+    cite_section: Graßhoff 2026, Famulus Expertise Kepler 2, version 1.0, § 3 (“The findings”), https://famulus.lettre.ai/kepler/lettre/2/#sec-findings
+    sections:
+    - number: '1'
+      title: Five pages
+      id: sec-pages
+    - number: '2'
+      title: Method
+      id: sec-method
+    - number: '3'
+      title: The findings
+      id: sec-findings
+    - number: '3.1'
+      title: 'Discrepancies in reported figures: roundings'
+      id: ''
+    - number: '3.2'
+      title: 'Discrepancies in reported figures: the parameters from the seasons'
+      id: ''
+    - number: '3.3'
+      title: Misprints
+      id: ''
+    - number: '3.4'
+      title: What was confirmed
+      id: ''
+    - number: '3.5'
+      title: What the derivations show beyond the assertions
+      id: ''
+    - number: '4'
+      title: What the reading adds
+      id: sec-adds
+    - number: '5'
+      title: Limits
+      id: sec-limits
+    - number: '6'
+      title: Conclusion
+      id: ''
+    use:
+      licence: CC BY-NC-ND 4.0
+      may:
+      - read
+      - quote with the citation
+      - copy and pass on unchanged for non-commercial purposes with author and source named
+      may_not:
+      - publish an adapted or translated version
+      - use commercially
+      - present reproductions from the cited sources as covered by this licence
+    entry_points:
+      mcp: famulus-expertise
+      tools:
+      - fx_about
+      - fx_series
+      - fx_issues
+      - fx_issue
+      - fx_text
+      - fx_search
+      - fx_claims
+      - fx_references
+      - fx_about_source
+      - fx_cite
+      - fx_gates
+      resource: expertise://kepler/2
+  review:
+    drafted_by: Claude (AI assistant), 11 Nov 2026
+    confirmed_by: null
+    confirmed_on: null
+  identity:
+    series: Famulus Expertise
+    subseries: Famulus Expertise Kepler
+    edition: kepler
+    number: 2
+    whole_number: 3
+    id: swerdlow-solar-theory
+    ref: fr:expertise/kepler/2
+    url: https://famulus.lettre.ai/kepler/lettre/2/
+    pdf: https://famulus.lettre.ai/kepler/lettre/2/swerdlow-solar-theory.pdf
+    source: https://famulus.lettre.ai/kepler/lettre/2/heft.fam
+    preamble: https://famulus.lettre.ai/kepler/lettre/2/heft.json
+    issn: null
+    doi: null
+    version: '1.0'
+    date: '2026-11-10'
+    status: published
+    revisions:
+    - version: '1.0'
+      date: '2026-11-10'
+      note: First publication.
+    language: en
+    licence:
+      name: CC BY-NC-ND 4.0
+      long: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+      url: https://creativecommons.org/licenses/by-nc-nd/4.0/
+    collections:
+    - kepler-prim
+    - kepler-sec
+  responsibility:
+    authors:
+    - name: Gerd Graßhoff
+      orcid: 0000-0002-4450-357X
+      affiliations:
+      - name: Humboldt-Universität zu Berlin
+        department: Philosophisches Institut
+        city: Berlin
+        country: Germany
+      - name: Deutsches Museum
+        department: Forschungsinstitut
+        city: München
+        country: Germany
+    editor: Gerd Graßhoff
+    publisher:
+      name: OpenScienceTechnology GmbH
+      place: Duisburg
+    ai_contribution: null
+  evidence:
+    references:
+    - ref: fr:astra/solar-eccentric
+      roles:
+      - ground
+      - inline
+      count: 1
+    - ref: fr:astra/solar-eccentric.ptolemy
+      roles:
+      - ground
+      - inline
+      count: 1
+    - ref: fr:astra/solar-equivalence-equal-radii
+      roles:
+      - ground
+      - segment
+      count: 1
+    - ref: fr:astra/solar-fig-1-2
+      roles:
+      - segment
+      count: 1
+    - ref: fr:kepler-sec/Swerdlow2026/0052/p05
+      roles:
+      - ground
+      - inline
+      - subject
+      count: 1
+    - ref: fr:kepler-sec/Swerdlow2026/0052/p06
+      roles:
+      - ground
+      - inline
+      - subject
+      count: 1
+    citations:
+    - grasshoff2026astra
+    - grasshoff2026twocases
+    - swerdlow2026
+    figures:
+    - file: figures/parallelogram-degenerate.png
+      id: fig-par
+    - file: figures/eccentricity-from-arcs.png
+      id: fig-seasons
+    - file: figures/sign-rule.png
+      id: fig-sign
+    - file: figures/battani-advance.png
+      id: fig-battani
+  quality:
+    catalogue: 2026-11-11.1
+    run: '2026-11-11T10:49:05'
+    verdict: inventory
+    counts:
+      erfuellt: 12
+      luecke: 5
+      verletzt: 3
+      teilgeprueft: 1
+    results:
+      erfuellt: fulfilled
+      verletzt: violated
+      luecke: gap
+      offen_modell: awaiting a judgement
+      teilgeprueft: partly tested
+      fehler: error
+      nicht_anwendbar: not applicable
+    open:
+    - gate: heft.praeambel.bestaetigung.01
+      result: luecke
+      blocking: true
+      title: The author has confirmed the preamble
+      findings: 1
+    - gate: heft.praeambel.ki_erklaerung.01
+      result: luecke
+      blocking: true
+      title: The contribution of AI systems to the issue is declared
+      findings: 1
+    - gate: referenz.abdeckung.quellenaussage.01
+      result: verletzt
+      blocking: true
+      title: Every statement about a source carries a reference
+      findings: 28
+    - gate: zitat.wortlaut.fundstelle.01
+      result: luecke
+      blocking: true
+      title: A typed wording stands at the place named
+      findings: 11
+    - gate: validitaet.sachlich.aussagen.01
+      result: luecke
+      blocking: true
+      title: The factual statements of the issue are justified (sachliche Validität)
+      findings: 1
+    - gate: sprache.nononsense.einschuebe.01
+      result: verletzt
+      blocking: true
+      title: No evaluative, intensifying or meta-linguistic insertions
+      findings: 3
+    - gate: sprache.termini.collection.01
+      result: teilgeprueft
+      blocking: true
+      title: The terms follow the dictionaries of the collections of the sub-series
+      findings: 6
+    - gate: sprache.termini.fest.01
+      result: verletzt
+      blocking: true
+      title: The fixed terminology of the house is kept
+      findings: 8
+    - gate: apparat.bibliographie.schluessel.01
+      result: luecke
+      blocking: true
+      title: Every citation key resolves, every entry is complete
+      findings: 2
+  counting:
+    vgwort: assigned
+---
+```{=typst}
+#show figure: set block(breakable: true)
+```
+
+## Five pages {#sec-pages}
+
+Noel Swerdlow's *The Renaissance of Astronomy* [@swerdlow2026] is a posthumous book of more than a thousand
+pages on Regiomontanus's *Epitome of the Almagest* and what followed from it. Its first chapter walks through the
+*Epitome* book by book. Five pages of that chapter concern the sun: page 17 on the length of the tropical year;
+pages 19 and 20 on the eccentric and the epicyclic form of Ptolemy's solar model and the parallelogram that shows
+them equivalent;
+pages 22 and 23 on the complete model, its equation of centre, Ptolemy's derivation of the parameters from the
+seasons, and the values that al-Battānī, az-Zarqāl and the Alfonsine Tables found later. In the Famulus
+collection `kepler-sec` these are scan pages 47, 49, 50, 52 and 53 of the document `Swerdlow2026`; every
+paragraph has an address, `fr:kepler-sec/Swerdlow2026/0052/p05` for instance (the register counts the running head of a page as its first block, so the fourth paragraph of this page is `p05`).
+
+These pages are dense. They contain three figures, two formulae, some sixty numbers — many of them sexagesimal,
+many of them derived from others on the same page — a construction described in prose, an equivalence claimed
+between two models, and a sign rule. A reader is asked to believe all of it. Most of it is right. This paper
+asks what it takes to know that, and what is found when one checks.
+
+The method we call a *deep reading*: every assertion on the pages is isolated, quoted, formalised and checked,
+and the check is recorded so that another reader can run it again. It was made possible by two pieces of
+infrastructure: the Famulus reference scheme, which gives every paragraph and figure an address and a
+transcription, and the language astra/1 [@grasshoff2026astra], in which Ptolemy's solar model, its values and the reasoning
+about it are written as checkable texts. The deep reading is the use of both on one passage. The model read
+here is Ptolemy's; the text read is Swerdlow's exposition of it.
+
+## Method {#sec-method}
+
+A deep reading is a list of *items*, kept as a YAML file (`readings/swerdlow-solar.yaml` in the famulus-astronomica
+workspace). Each item has:
+
+- a **locus**, the address of the paragraph (`fr:kepler-sec/Swerdlow2026/0052/p06`);
+- a **quotation**, the assertion as printed. The tool verifies that the quotation occurs in the paragraph's
+  transcription (the page XML of the collection), after reducing the transcription's LaTeX markup to plain
+  symbols and ignoring whitespace. A quotation that is not found fails the run: the reading is tied to the text,
+  not to memory;
+- a **kind**: definition, construction, formula, sign rule, value, computation, derivation, or historical claim;
+- a **formalisation**, which says what kind of assertion it is. Arithmetic in sexagesimal notation
+  (`82;17 - 65;30`). A proposition stated in a model (`proposition solar-eccentric: p1`), which is confirmed when
+  it holds over the model's whole parameter space and all its states. A step of a derivation (`step
+  solar-equivalence-equal-radii: d6`), which is confirmed when the step is true and is licensed by the rule it
+  names. A quantity computed or determined in a derivation (`computation solar-parameters-from-seasons: arcs.e`).
+  A sign rule read off a model under a parametrisation (`sign solar-eccentric[solar-eccentric.ptolemy]: c`). Or a
+  value solved from a model: the value of one observable in the state where another has a given value;
+- the **printed result** and the number of sexagesimal places to which it is compared; the tolerance is half a
+  unit of the last printed place;
+- an **attribution**: whether the assertion is Swerdlow's own statement or arithmetic (`print`) or a figure he
+  reports from a source (`reported`). A discrepancy in the first is about the page; in the second, about the source;
+- the **evidence**: a crop of the page image (fractions of the page's width and height), produced by the tool.
+
+`famulus-astra reading readings/swerdlow-solar.yaml` runs the list and writes a report: for each item the
+verdict *confirmed*, *discrepancy* (with the recomputed value and the difference), *not checkable* (with the
+reason) or *quotation not found*, and the crop. The report in this paper is that output, reformatted for the
+page; nothing in the tables below was typed in by hand.
+
+The geometrical assertions are checked against astra/1 texts written from the same pages
+[@grasshoff2026astra]. These keep four things apart that the pages present together. The *models* are the pure
+geometry of the eccentric and of the epicyclic form, without values. The *parametrisations* are Ptolemy's
+values and al-Battānī's, each value with its paragraph. The *superposition* places the two forms in one plane,
+as Swerdlow's Figs. 1.2 and 1.3 do. The *derivations* are the reasoning: the equivalence of the two forms under
+the hypotheses R′ = R and r = e, their equivalence in direction under R′/r = R/e, the equation of centre, and
+the determination of the parameters from the seasons. A property of the construction — "r is always parallel to
+the apsidal line AB" — is confirmed as a proposition of a model, for every parameter value. A statement of the
+argument — "complete parallelogram OESC" — is confirmed as a step of a derivation: here the step that OE and CS
+are parallel, by Elements I.33 (@fig-par).
+
+![The scene of the derivation of the equivalence. Left, at κ̄ = 41°, the state Swerdlow's Fig. 1.2 shows: OE and
+CS, in gold, are parallel because ES and OC are equal and parallel (Elements I.33); OESC is the parallelogram of
+page 19. Right, the same at κ̄ = 0°: the four points lie on the apsidal line and there is no
+parallelogram.](figures/parallelogram-degenerate.png){#fig-par width=92%}
+
+Swerdlow's Fig. 1.2 in motion, drawn from the two forms of the model superposed: the mean anomaly κ̄ runs through a
+revolution, and the slider below the figure fades from the eccentric form to the epicyclic. The eccentricity is
+exaggerated, as in the printed figure.
+
+{{< famulus fr:astra/solar-fig-1-2 animation >}}
+
+The derivation of the equivalence whose scene this is can be opened step by step, each step with its premises,
+its rule and the result of the check:
+
+{{< famulus fr:astra/solar-equivalence-equal-radii argument >}}
+
+## The findings {#sec-findings}
+
+@tbl-reading and @tbl-reading2 list the 45 assertions. Thirty-five are confirmed. One — that the distinction between the real
+and the apparent non-uniformity of the sun's motion "is recognized only by Kepler" — is a judgement about the
+history of ideas that no arithmetic reaches; it is listed as not checkable, and left to the reader. Nine
+differ from recomputation. We take them in three groups.
+
+::: {#tbl-reading tbl-colwidths="[4,5,45,14,20,12]"}
+
+| # | p. | assertion (quoted) | printed | recomputed | verdict |
+|---|---|---|---|---|---|
+| 1 | 17 | 365 1/4 - 1/300 days = 365;14,48^d | 365;14,48 | 365;14,48 | ✓ |
+| 2 | 17 | 365;14,48^d = 365^d 5;55,12^h | 5;55,12 | 5;55,12 | ✓ |
+| 3 | 17 | is 0;6,26^h too long | 0;6,26 | 0;6,26 | ✓ |
+| 4 | 17 | 3760/304 · 29;31,50,8,20^d ≈ 111,035^d/304 | 111035 | 111035 | ✓ |
+| 5 | 17 | 111,035^d/304 = 365;14,48,9…^d | 365;14,48,9 | 365;14,48,9 | ✓ |
+| 6 | 17 | 365;15,25^d = 365^d 6;10^h | 6;10 | 6;10 | ✓ |
+| 7 | 17 | 1° per century or 36'' per year | 36 | 36 | ✓ |
+| 8 | 19 | on which the sun S moves uniformly about E … | holds | holds | ✓ |
+| 9 | 19 | complete parallelogram OESC | holds | holds | ✓ |
+| 10 | 19 | so that r is always parallel to the apsidal… | holds | holds | ✓ |
+| 11 | 20 | the direction OS from the earth to the sun,… | holds | holds | ✓ |
+| 12 | 20 | the apparent nonuniform motion of the sun i… | holds | holds | ✓ |
+| 13 | 20 | in both models the directions OS and OS′ ar… | holds | holds | ✓ |
+| 14 | 20 | There is, however, a distinction between th… | — | — | — |
+| 15 | 22 | The mean anomaly κ̄ = λ̄s − λA | holds | holds | ✓ |
+| 16 | 22 | the true anomaly κ = κ̄ ± c about O | holds | holds | ✓ |
+| 17 | 22 | sin c = e sin κ̄/(R^2 + e^2 + 2Re cos κ̄)^1… | holds | holds | ✓ |
+| 18 | 22 | tan c = e sin κ̄/R + e cos κ̄ | holds | holds | ✓ |
+| 19 | 22 | c < 0° for κ̄ > 180°, c > 0° for κ̄ > 180° | c < 0° for κ̄ > 180°, c > 0° for κ̄ >… | c > 0° for κ̄ < 180°, c < 0° for κ̄ >… | ✗ print |
+| 20 | 22 | lies on a line parallel to ES in the direct… | holds | holds | ✓ |
+| 21 | 22 | vernal equinox to summer solstice 94½d with… | 93;9 | 93;9 | ✓ |
+| 22 | 22 | summer solstice to autumnal equinox 92½d wi… | 91;11 | 91;10 | ✗ rep. |
+| 23 | 22 | a total of 187d and mean motion of 184;20° | 184;20 | 184;19 | ✗ rep. |
+| 24 | 22 | a total of 187d | 187 | 187 | ✓ |
+
+Assertions 1 to 24, pages 17 to 22, from the tool's report. "p." is the printed page; the quotation is as
+printed (the transcription's LaTeX reduced; long quotations cut). Printed and recomputed values are
+sexagesimal; for a geometrical assertion "holds" means that the proposition holds over the model's parameter
+space, or that the step of the derivation is true and licensed by its rule. ✓ confirmed to the last printed
+place; ✗ a discrepancy, with its attribution (print: the author's own statement; rep.: a figure he reports
+from a source); — not checkable. The formalisation of every item is in the YAML file.
+:::
+
+::: {#tbl-reading2 tbl-colwidths="[4,5,45,14,20,12]"}
+
+| # | p. | assertion (quoted) | printed | recomputed | verdict |
+|---|---|---|---|---|---|
+| 25 | 22 | e = 2;29,30 ≈ 2;30, thus e/R = 1/24 | 0;2,30 | 0;2,30 | ✓ |
+| 26 | 22 | from which he finds that where R = 60, e = … | 2;29,30 | 2;29,28 | ✗ rep. |
+| 27 | 22 | and λA = 65;30° | 65;30 | 65;35 | ✗ rep. |
+| 28 | 22 | vernal equinox to summer solstice 94½d | 2;29,30 | 2;28,58 | ✗ rep. |
+| 29 | 22 | summer solstice to autumnal equinox 92½d | 65;30 | 65;26 | ✗ rep. |
+| 30 | 22 | the maximum correction cm = sin−1e/R = 2;23° | 2;23 | 2;23 | ✓ |
+| 31 | 22 | e is in error by about +0;24 | 0;24 | 0;24 | ✓ |
+| 32 | 22 | +0;24/2;6 = +19% | 19 | 19 | ✓ |
+| 33 | 22 | λA by −0;46° in −145 | -0;46 | -0;46 | ✓ |
+| 34 | 22 | −5;36° in 140 | -5;36 | -5;36 | ✓ |
+| 35 | 22 | its longitude has increased by +4;50° in 28… | 4;50 | 4;50 | ✓ |
+| 36 | 22 | of which about 4° is the precession of the … | 4 | 4 | ✓ |
+| 37 | 22 | 0;50° the proper or sidereal motion of the … | 0;50 | 0;50 | ✓ |
+| 38 | 22 | al-Battānī found e = 2;4,45 and cm = 1;59,1… | 1;59,10 | 1;59,9 | ✗ rep. |
+| 39 | 22 | λA = 82;17°, a notable advance of 16;37° in… | 16;37 | 16;47 | ✗ print |
+| 40 | 23 | λA = 77;50°, a regression of 4;27° | 4;27 | 4;27 | ✓ |
+| 41 | 23 | cm = 2;10°, corresponding to e ≈ 2;16 | 2;16 | 2;16 | ✓ |
+| 42 | 23 | λ̄s = λs + c = 180° + 2;10° = 182;10° | 2;10 | 2;10 | ✓ |
+| 43 | 23 | κ̄ = 182;10° −65;30° = 116;40° | 116;40 | 116;40 | ✓ |
+| 44 | 23 | λ̄s ≈ 183;15°, so Ptolemy's mean longitude … | -1;5 | -1;5 | ✓ |
+| 45 | 23 | the error increases by −0;26,25° per century | -0;26,25 | -0;26,25 | ✓ |
+
+Assertions 25 to 45, pages 22 and 23.
+:::
+
+### Discrepancies in reported figures: roundings
+
+Three discrepancies concern numbers that Swerdlow reports from his sources, and all three are of the same
+kind: the source's rounding.
+
+**Ptolemy's arcs of mean motion (page 22, items 22 and 23).** Ptolemy's intervals from vernal equinox to summer
+solstice and from summer solstice to autumnal equinox are 94½ and 92½ days, "with mean motion 93;9°" and
+"91;11°", "and a total of 187ᵈ and mean motion of 184;20°". With Ptolemy's own year of 365;14,48 days the mean
+motion is 0;59,8,17,…° per day, and exact arithmetic gives 93;8,33°, 91;10,17° and 184;18,50°. The first rounds
+to 93;9° as printed; the second rounds to 91;10°, not 91;11°; and 184;20° is the sum of the two rounded arcs,
+not the rounding of the exact total. These are Ptolemy's figures, and Swerdlow reports them; the discrepancy is
+between Ptolemy's rounding and exact arithmetic. It is small — 43 seconds of arc, and 1;10′ — but a reader who
+recomputes the page will meet it. (We have not traced how Ptolemy obtained 91;11°.)
+
+**Al-Battānī's maximum equation (page 22, item 38).** Regiomontanus reports that al-Battānī found e = 2;4,45 and
+c~m~ = 1;59,10°. The maximum equation of the eccentric model is arcsin(e/R); for e = 2;4,45 and R = 60 that is
+1;59,9°, one second short of the reported 1;59,10°. Al-Battānī's c~m~ is his own value as Regiomontanus
+transmits it, and we have not checked it against al-Battānī's *Zīj*; one second is within the roundings of a
+sexagesimal computation of the sine. (The first version of this paper gave 1;59,8°: the figure had been
+truncated where it should have been rounded.)
+
+### Discrepancies in reported figures: the parameters from the seasons
+
+Four discrepancies belong to one sentence. Having given the two seasons, the page continues: "from which he
+finds that where R = 60, e = 2;29,30 ≈ 2;30 … and λ~A~ = 65;30°" (@fig-seasons). This is an assertion that
+something follows, and the model lets it be tested. The eccentric model has two unknown parameters here, the
+eccentricity and the longitude of the apogee, and the two intervals are two conditions on them. The tool
+inverts the model numerically, twice (items 26 to 29).
+
+![Page 22, scan page 52, `p05`: the seasons and the parameters Ptolemy finds from
+them.](figures/eccentricity-from-arcs.png){#fig-seasons width=96%}
+
+| inverted for | e | λ~A~ |
+|---|---|---|
+| the arcs of mean motion as reported, 93;9° and 91;11° | 2;29,28 | 65;35° |
+| the day counts, 94½ and 92½ days, with the year 365;14,48 d | 2;28,58 | 65;26° |
+| reported | 2;29,30 | 65;30° |
+
+: Eccentricity and apogee determined through the model. In both cases the solution found is the only one. {#tbl-seasons}
+
+From the two reported arcs the model gives Ptolemy's eccentricity to two units of the second sexagesimal place
+and his apogee to 0;5°. From the day counts, with exact arithmetic, it gives an eccentricity half a minute
+smaller and an apogee 0;4° lower. Ptolemy's parameters follow from his rounded arcs, to within what a
+computation with a table of chords loses, and not from the day counts. The two cases differ only in the rounding of the arcs, by 27 and by 43 seconds; that moves the
+apogee by 0;9° and the eccentricity by 0;0,30. Swerdlow
+says of this derivation that it "is so sensitive to errors in the intervals of time … that the exact results
+are fortuitous"; the two determinations show that sensitivity inside Ptolemy's own numbers. Ptolemy's steps are
+not on the page, and we have not compared with the *Almagest*; these four discrepancies are facts about the
+reported derivation, not about Swerdlow's page.
+
+### Misprints
+
+Two discrepancies concern the page itself. In both cases the arithmetic of the sentence does not come out, and
+the page image confirms the transcription.
+
+**The sign rule (page 22, item 19).** After giving the two formulae for the equation of centre c, the page
+states when it is to be added and when subtracted:
+
+![Page 22, scan page 52, `p04`: the sign rule as printed.](figures/sign-rule.png){#fig-sign width=96%}
+
+> "The true longitude λ~s~ = λ~A~ + κ̄ ± c where c < 0° for κ̄ > 180°, c > 0° for κ̄ > 180°".
+
+Both clauses name the same condition, κ̄ > 180°; as printed the rule is contradictory and says nothing about
+κ̄ < 180°. The model settles the matter. In the eccentric model under Ptolemy's parametrisation
+(`fr:astra/solar-eccentric` with `fr:astra/solar-eccentric.ptolemy`), c as the difference between the mean and
+the true longitude is positive in the first half of the anomaly and negative in the second: the tool reads off
+the rule "c > 0° for κ̄ < 180°, c < 0° for κ̄ > 180°". The printed tangent formula, tan c = e sin κ̄ / (R + e cos κ̄),
+gives the same sign (its numerator changes sign at 180°), and the derivation of that formula from the geometry
+holds in absolute value over the whole parameter space. One of the
+two printed clauses must therefore read κ̄ < 180°. Which one depends on the convention for the sign of c, and the
+formula fixes it: c > 0° for κ̄ < 180°, and λ~s~ = λ~A~ + κ̄ − c there, since the true longitude lags behind the mean
+on the way from apogee to perigee. The misprint is a dropped inequality sign. It matters because the sentence
+is the one place on the page where the reader is told how to apply c.
+
+**Al-Battānī's apogee (page 22, item 39).** The last sentence of the page reads:
+
+![Page 22, scan page 52, `p06`: al-Battānī's values as printed.](figures/battani-advance.png){#fig-battani width=96%}
+
+> "Regiomontanus reports that al-Battānī found e = 2;4,45 and c~m~ = 1;59,10°, a notable reduction, and λ~A~ =
+> 82;17°, a notable advance of 16;37° in 743 years, mostly from precession".
+
+Ptolemy's apogee, on the same page, is λ~A~ = 65;30°. The advance from 65;30° to 82;17° is 16;47°, not 16;37°.
+The difference is exactly 0;10°, a single sexagesimal digit, and no other base on the page yields 16;37°:
+al-Battānī's own apogee is given relative to Ptolemy's, the 743 years run from Ptolemy's epoch to al-Battānī's,
+and the next sentence computes az-Zarqāl's "regression of 4;27°" from the same 82;17° correctly (82;17 − 77;50
+= 4;27, item 40). The 16;37° is a misprint for 16;47°. The comparison of the two parametrisations of the model,
+Ptolemy's and al-Battānī's, shows the same difference, +16;47°. It is harmless to the argument — "mostly from precession"
+holds for either — and it would pass any reader who does not subtract.
+
+### What was confirmed
+
+The confirmations deserve a word, because they are the bulk of the result and because some of them are not
+trivial. The arithmetic of the year holds throughout: 365¼ − 1/300 days is 365;14,48 days, which is 365 days
+5;55,12 hours, which is 0;6,26 hours longer than the modern mean tropical year of 365.2422 days; Hipparchus's
+Metonic derivation, 3760 synodic months of 29;31,50,8,20 days over 304 years, gives 111,035 days and 365;14,48,9
+days; the sidereal year of 365;15,25 days is 365 days 6;10 hours; 1° per century is 36″ per year. Ptolemy's
+parameters hold: e/R = 2;30/60 = 1/24, the maximum equation arcsin(1/24) = 2;23°. Swerdlow's error analysis of
+page 22 holds to the last digit: against the "correct" values e = 2;6,22 and λ~A~ = 66;16° for −145 and e = 2;5,37
+and λ~A~ = 71;6° for 140, Ptolemy's e is in error by +0;24 or +19 %, his λ~A~ by −0;46° and −5;36°, and the apogee
+has advanced 4;50° in 285 years, of which about 4° (285 years of precession at the modern rate) is precession
+and 0;50° proper motion. On page 23, the Alfonsine maximum equation 2;10° corresponds to e ≈ 2;16; Ptolemy's
+mean longitude at the autumnal equinox is 180° + 2;10° = 182;10°, and the model under Ptolemy's values, solved
+for the equation of centre at true longitude 180°, indeed gives 2;10°; the mean anomaly 182;10° − 65;30° = 116;40°; the error of
+−1;5° against the correct 183;15°; and the growth of that error by −0;26,25° per century, which follows from the
+excess of 0;6,26 hours in the year turned into mean motion.
+
+The geometrical assertions hold, each as what it is. Properties of the constructions hold as propositions of
+the two models, for every parameter value: the sun moves uniformly about E through κ̄ from the apogee; the
+radius of the epicycle stays parallel to the apsidal line; κ̄ = λ̄~s~ − λ~A~; κ = κ̄ ± c. The statements of the
+argument hold as steps of derivations: OESC is a parallelogram (Elements I.33, from ES and OC equal and
+parallel); the two suns coincide, so that the direction OS is the same in both forms; under R′/r = R/e the
+directions OS and OS′ are the same (Elements VI.6 and I.29). Both printed formulae for c, the tangent form and
+the sine form, are conclusions of a derivation in the eccentric model.
+
+### What the derivations show beyond the assertions
+
+Writing the argument of page 19 as a derivation, with a rule for every step, shows two things that are not
+assertions of the page and therefore not items of the table.
+
+The equivalence has hypotheses. "Complete parallelogram OESC and let C be the center of an epicycle of radius
+r = e … on a concentric circle about O of radius R′ = R" gives them in passing. In the derivation they are the
+two givens. Lifting either makes the conclusion fail, and the check that no step uses a given it does not cite
+finds none used tacitly.
+
+The parallelogram argument does not cover the apsides. Elements I.33 needs the two equal and parallel lines
+not to lie in one line, and I.28, by which ES and OC are parallel, needs the two points on one side of the
+transversal. At κ̄ = 0° and κ̄ = 180° the points O, E, S and C lie on the apsidal line (@fig-par), and the
+two propositions have nothing to apply to. The conclusion is true there as well — the sun of both forms is at
+the apogee or at the perigee — but the argument by the parallelogram does not reach it. The derivation
+therefore has three cases: off the apsidal line by the parallelogram, and at the apogee and at the perigee by
+adding and subtracting lengths along the line (OS = e + R and OS′ = R′ + r; R − e and R′ − r). It is displayed
+in full, with every step, in [@grasshoff2026twocases]. A figure drawn at κ̄ ≈ 41° shows the first case only.
+This is not an error of the page; it is what the page's one sentence of argument leaves to the reader.
+
+## What the reading adds {#sec-adds}
+
+A careful reader could have found the two misprints with a pencil. Three things distinguish the deep reading
+from that reader.
+
+**Coverage.** The reader checks what catches the eye; the reading checks every assertion, because every
+assertion is an item, and an item without a formalisation has to say why. The tool runs the 45 items in
+seconds. Nothing was skipped as too obvious — and the
+sign rule, which one reads past because one knows what it means, is where the misprint was.
+
+**Attribution.** Each discrepancy is classified at once: is this Swerdlow's arithmetic or Ptolemy's? The
+seven discrepancies in reported figures would otherwise look like errors of the page; they are facts about
+Ptolemy's computation and about Regiomontanus's report of al-Battānī, and they are worth knowing as such.
+
+**Each assertion as what it is.** A page of this kind asserts things of four kinds: that a construction has a
+property, that something follows, that a number results from other numbers, that parameters result from
+observations. They are checked differently. A property is checked for every parameter value, not only for the
+drawn one. A step is checked for truth and for whether the proposition that would license it has its hypotheses
+and its configuration. A number is recomputed. A determination is inverted through the model. The sentence on
+the parameters from the seasons would pass a reader who checks arithmetic only: there is no arithmetic on the
+page to check. It is an assertion that something follows, and it can be tested only with the model.
+
+And one thing distinguishes the reading from a footnote: it is a record that runs. The YAML file is the
+apparatus; the report is reproducible; every item names its paragraph, and the paragraph is one address away.
+A later reader who disagrees changes an item and runs it again.
+
+## Limits {#sec-limits}
+
+The reading covers five pages, not the chapter, and it covers what can be formalised: arithmetic, geometry, and
+the consistency of the page with itself. It does not check Swerdlow's historical claims against the sources he
+cites — that Ptolemy's intervals are those of the *Almagest*, that al-Battānī's values are as Regiomontanus
+reports them — except where the arithmetic on the page or the model makes a claim testable. The checks of the
+derivations test truth on samples of the parameter space and match rules as schemas; they are not formal proofs
+[@grasshoff2026astra]. It takes the modern values
+Swerdlow uses (the mean tropical year, the rate of precession) as given where he does not state them, and says
+so in the item's note.
+
+The transcription is the OCR of the book's PDF with its mathematics in LaTeX; the tool normalises that markup
+before matching a quotation, and two quotations had to be written in the transcription's flattened form of a
+fraction. The evidence crops are cut by coordinates read off a grid over the page image, not by OCR line boxes,
+which the page XML does not have.
+
+Finally, "misprint" is a judgement. We call the two cases misprints because the arithmetic of the sentence does
+not come out as printed, because the page image confirms the transcription, and because a one-character change
+makes each sentence correct. We have not seen Swerdlow's manuscript; the book was published after his death, and
+where the slip entered is not ours to say.
+
+## Conclusion
+
+Five pages of a learned book, read deeply, yield 45 assertions. Thirty-five hold and one is beyond arithmetic.
+Three show the roundings of Ptolemy and al-Battānī. Four show that Ptolemy's eccentricity and apogee follow
+from his rounded arcs and not from the day counts of the seasons. Two are misprints: a dropped inequality sign
+in the rule for the equation of centre, and 16;37° for 16;47° in the advance of al-Battānī's apogee. The
+derivation behind the page's parallelogram, written out, needs two further cases at the apsides. None of this changes
+what the pages say about the history of astronomy, and all of it changes how far a reader can trust them
+without checking. The reading is kept as a file that runs, with an address for every assertion; that, rather
+than the two misprints, is the result we would like to see become ordinary.
+
+## Availability {.unnumbered}
+
+The reading is `readings/swerdlow-solar.yaml` in the Famulus workspace `famulus-astronomica`, run by
+`famulus-astra reading`; its report and the evidence crops are in `build/readings/swerdlow-solar/`. The
+astra/1 texts — two models, their parametrisations, the superposition and four derivations — and the language
+are described in the companion paper [@grasshoff2026astra]. Swerdlow's book is
+cited by its scan pages in the Famulus collection `kepler-sec` (scan page n is printed page n − 30 in chapter 1).

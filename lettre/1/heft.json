@@ -1,0 +1,492 @@
+{
+ "expertise": {
+  "schema": "famulus-expertise/1",
+  "subject": {
+   "question": "What does Kepler argue about the equant in chapter 4 of the first part of the Astronomia nova, from what, and by what right?",
+   "sources": [
+    {
+     "ref": "fr:kepler-prim/kgw-03/0071/p05",
+     "role": "object",
+     "note": "Astronomia nova ch. 4, printed page 73 of Gesammelte Werke vol. 3: the argument; named as witness of the derivation"
+    },
+    {
+     "ref": "fr:kepler-prim/kgw-03/0071/fig01",
+     "role": "object",
+     "note": "the figure of the passage"
+    },
+    {
+     "ref": "fr:kepler-sec/Kepler1992/0147/p02",
+     "role": "witness",
+     "note": "Donahue's translation of the passage"
+    }
+   ],
+   "work": "Kepler, Astronomia nova, Part I, chapter 4; in a coda chapter 2",
+   "edition": "Gesammelte Werke, vol. 3, cited by the pages of the Famulus collection kepler-prim, document kgw-03 (page n of the collection is printed page n + 2); Donahue's translation by the collection kepler-sec, document Kepler1992",
+   "method": "The model is made explicit: every point of Kepler's figure with its construction and its astronomical meaning, the one angle that varies, and what is assumed of the lengths. The argument is written as steps with premises and the rule that licenses each, and a program checks every step over the parameter space of the model and all its states.",
+   "limits": [
+    "The checks test truth on samples of the parameter space and of the positions; they do not prove.",
+    "A step counts as an instance of a proposition when it matches a schema of that proposition; the wording of the proposition was compared with Heath's translation, not with the Greek.",
+    "Three of the nine steps are calculations that the program confirms numerically without replaying them.",
+    "Arcs are compared through the angles at the centre that measure them; the length of an arc is not computed.",
+    "The reconstruction covers eight lines of chapter 4; Copernicus's replacement of the equant, the remark on the planet's path and the numerical comparison for Mars are not treated.",
+    "The physical reading that Kepler attaches to the equant is not a geometrical argument and lies outside this method.",
+    "The Latin is the transcription of the collection, produced by optical character recognition and checked only for the quoted sentences.",
+    "The volume's record in the collection names no year; none is given in the bibliography."
+   ]
+  },
+  "claims": [
+   {
+    "id": "C1",
+    "text": "The reconstruction of Kepler's argument has nine steps: five are instances of Elements I.32, I.13 and the two Common Notions, one is read off the construction, three are calculations; the answer to all four questions of the check is yes.",
+    "section": "sec-check",
+    "status": "grounded",
+    "grounds": [
+     "fr:astra/kepler-equant-unequal-motion",
+     "fr:kepler-prim/kgw-03/0071/p05",
+     "fr:kepler-sec/Kepler1992/0147/p02"
+    ]
+   },
+   {
+    "id": "C2",
+    "text": "The angle at the centre is less than the angle at the equant in every position of the planet between apogee and perigee, and its supplement is greater; the right angle is needed only to make the two angles at C equal.",
+    "section": "sec-shows",
+    "status": "grounded",
+    "grounds": [
+     "fr:astra/kepler-equant-unequal-motion"
+    ]
+   },
+   {
+    "id": "C3",
+    "text": "The hypothesis BC = BA, which Kepler states, is not needed for the conclusion: with the equant at any distance above the centre the conclusion still holds, and so does every step.",
+    "section": "sec-shows",
+    "status": "grounded",
+    "grounds": [
+     "fr:astra/kepler-equant-unequal-motion"
+    ]
+   },
+   {
+    "id": "C4",
+    "text": "When the planet is at the apogee or the perigee (θ = 0° and θ = 180°), the points C, B and E lie on one line, Elements I.32 has no triangle to speak of, and the strict inequality becomes an equality.",
+    "section": "sec-shows",
+    "status": "grounded",
+    "grounds": [
+     "fr:astra/kepler-equant-unequal-motion"
+    ]
+   },
+   {
+    "id": "C5",
+    "text": "For the equivalence of the eccentric and the concentric with epicycle in chapter 2, Kepler's three conditions are what the reconstruction needs: the parallel lines are part of the construction of the epicyclic model, and the two equalities of lengths are its two hypotheses, both needed for the conclusion.",
+    "section": "sec-coda",
+    "status": "grounded",
+    "grounds": [
+     "fr:astra/solar-equivalence-equal-radii"
+    ]
+   },
+   {
+    "id": "C6",
+    "text": "When the planet is at the apogee or at the perigee, the parallelogram of chapter 2 collapses into the line of apsides, and the argument needs two further cases.",
+    "section": "sec-coda",
+    "status": "grounded",
+    "grounds": [
+     "fr:astra/solar-equivalence-equal-radii"
+    ]
+   },
+   {
+    "id": "C7",
+    "text": "The checks test truth on samples of the parameter space and of the positions; they do not prove.",
+    "section": "sec-limits",
+    "status": "gap",
+    "gap": "A statement about the reach of the checks; the issue gives no address beside it."
+   }
+  ],
+  "agent": {
+   "summary": "Reconstruction of the eight lines of Astronomia nova, Part I, ch. 4, in which Kepler gives Copernicus's charge against Ptolemy's equant: a model with six points, one hypothesis (BC = BA), one supposition (the angle DCE is right) and nine steps under Elements I.32, I.13 and two Common Notions. Kepler names none of these rules; the steps are the author's reconstruction. The checks sample the parameter space and the positions; they are evidence, not proof. A coda treats the equivalence of eccentric and epicycle in ch. 2.",
+   "read_first": [
+    "sec-passage",
+    "sec-model",
+    "sec-argument",
+    "sec-check",
+    "sec-shows",
+    "sec-limits"
+   ],
+   "answers": [
+    "What are the steps, premises and rules of Kepler's argument that the equant makes the planet move unequally about the centre of its circle?",
+    "Does the argument need the hypothesis BC = BA?",
+    "In which positions of the planet does the inequality hold, and where does the argument not apply?",
+    "Which sentences of Kepler were checked against the transcription, and as which steps?",
+    "What does the figure of chapter 2 say, and where does it not speak?",
+    "How is a geometrical passage about a model reconstructed?"
+   ],
+   "terms": [
+    {
+     "term": "model",
+     "meaning": "the pure geometry: it names its lengths and angles as symbols and gives them no values"
+    },
+    {
+     "term": "witness",
+     "meaning": "the text whose use of the model is analysed; here Kepler's paragraph, while the model is attributed to Ptolemy and the description is the author's"
+    },
+    {
+     "term": "hypothesis",
+     "meaning": "what the author assumes of the lengths and could have assumed otherwise; a hypothesis of the argument, not a part of the geometry"
+    },
+    {
+     "term": "supposition",
+     "meaning": "a condition that fixes the position; it restricts what follows to the positions in which it holds"
+    },
+    {
+     "term": "grounded, true, justified, conclusive",
+     "meaning": "the four checks: every premise is there; every proposition is true in the model for every admissible value and every position; every step is an instance of the rule it names; the conclusion rests only on what is cited"
+    },
+    {
+     "term": "marks ✓ ◦ ≈",
+     "meaning": "✓ an instance of the rule named, ◦ read off the construction, ≈ by calculation"
+    }
+   ],
+   "do_not": [
+    "Do not quote the steps of the reconstruction or the propositions of Euclid as Kepler's wording: Kepler names none of the three propositions.",
+    "Do not present the findings as a correction of Kepler: they state what his argument establishes and how far it reaches.",
+    "Do not call the result of the checks a proof: truth is tested on samples.",
+    "Do not extend the general inequality to the apsides: at θ = 0° and θ = 180° it becomes an equality.",
+    "Do not carry the finding that the bisection is not needed beyond this argument: in the comparison with Copernicus's replacement the bisection matters.",
+    "Do not cite the Latin beyond the quoted sentences as checked: the transcription was produced by optical character recognition."
+   ],
+   "cite": "Graßhoff, Gerd. Reconstructing Kepler's Reasoning in the Astronomia Nova: A Compact Argument about the Equant, Made Explicit and Checked Step by Step. Famulus Expertise Kepler, No. 1 (whole no. 2). Duisburg: OpenScienceTechnology, 2026. Version 1.0. https://famulus.lettre.ai/kepler/lettre/1/",
+   "bibtex": "@article{grasshoff2026expertise-kepler-1,\n  author = {Graßhoff, Gerd},\n  title = {{Reconstructing Kepler's Reasoning in the Astronomia Nova: A Compact Argument about the Equant, Made Explicit and Checked Step by Step}},\n  journal = {Famulus Expertise Kepler},\n  number = {1},\n  year = {2026},\n  date = {2026-11-10},\n  version = {1.0},\n  publisher = {OpenScienceTechnology},\n  address = {Duisburg},\n  url = {https://famulus.lettre.ai/kepler/lettre/1/},\n  note = {Version 1.0. Famulus Expertise, whole no. 2},\n  langid = {english}\n}",
+   "cite_section": "Graßhoff 2026, Famulus Expertise Kepler 1, version 1.0, § 5 (“What the reconstruction shows”), https://famulus.lettre.ai/kepler/lettre/1/#sec-shows",
+   "sections": [
+    {
+     "number": "1",
+     "title": "The passage",
+     "id": "sec-passage"
+    },
+    {
+     "number": "2",
+     "title": "The model made explicit",
+     "id": "sec-model"
+    },
+    {
+     "number": "3",
+     "title": "The argument reconstructed",
+     "id": "sec-argument"
+    },
+    {
+     "number": "4",
+     "title": "What the checks say",
+     "id": "sec-check"
+    },
+    {
+     "number": "5",
+     "title": "What the reconstruction shows",
+     "id": "sec-shows"
+    },
+    {
+     "number": "6",
+     "title": "Coda: \"the figure speaks to the geometer\"",
+     "id": "sec-coda"
+    },
+    {
+     "number": "7",
+     "title": "How to reconstruct an argument",
+     "id": "sec-how"
+    },
+    {
+     "number": "8",
+     "title": "Limits",
+     "id": "sec-limits"
+    },
+    {
+     "number": "9",
+     "title": "Conclusion",
+     "id": ""
+    }
+   ],
+   "use": {
+    "licence": "CC BY-NC-ND 4.0",
+    "may": [
+     "read",
+     "quote with the citation",
+     "copy and pass on unchanged for non-commercial purposes with author and source named"
+    ],
+    "may_not": [
+     "publish an adapted or translated version",
+     "use commercially",
+     "present reproductions from the cited sources as covered by this licence"
+    ]
+   },
+   "entry_points": {
+    "mcp": "famulus-expertise",
+    "tools": [
+     "fx_about",
+     "fx_series",
+     "fx_issues",
+     "fx_issue",
+     "fx_text",
+     "fx_search",
+     "fx_claims",
+     "fx_references",
+     "fx_about_source",
+     "fx_cite",
+     "fx_gates"
+    ],
+    "resource": "expertise://kepler/1"
+   }
+  },
+  "review": {
+   "drafted_by": "Claude (AI assistant), 11 Nov 2026",
+   "confirmed_by": null,
+   "confirmed_on": null
+  },
+  "identity": {
+   "series": "Famulus Expertise",
+   "subseries": "Famulus Expertise Kepler",
+   "edition": "kepler",
+   "number": 1,
+   "whole_number": 2,
+   "id": "equant-argument",
+   "ref": "fr:expertise/kepler/1",
+   "url": "https://famulus.lettre.ai/kepler/lettre/1/",
+   "pdf": "https://famulus.lettre.ai/kepler/lettre/1/equant-argument.pdf",
+   "source": "https://famulus.lettre.ai/kepler/lettre/1/heft.fam",
+   "preamble": "https://famulus.lettre.ai/kepler/lettre/1/heft.json",
+   "issn": null,
+   "doi": null,
+   "version": "1.0",
+   "date": "2026-11-10",
+   "status": "published",
+   "revisions": [
+    {
+     "version": "1.0",
+     "date": "2026-11-10",
+     "note": "First publication."
+    }
+   ],
+   "language": "en",
+   "licence": {
+    "name": "CC BY-NC-ND 4.0",
+    "long": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International",
+    "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+   },
+   "collections": [
+    "kepler-prim",
+    "kepler-sec"
+   ]
+  },
+  "responsibility": {
+   "authors": [
+    {
+     "name": "Gerd Graßhoff",
+     "orcid": "0000-0002-4450-357X",
+     "affiliations": [
+      {
+       "name": "Humboldt-Universität zu Berlin",
+       "department": "Philosophisches Institut",
+       "city": "Berlin",
+       "country": "Germany"
+      },
+      {
+       "name": "Deutsches Museum",
+       "department": "Forschungsinstitut",
+       "city": "München",
+       "country": "Germany"
+      }
+     ]
+    }
+   ],
+   "editor": "Gerd Graßhoff",
+   "publisher": {
+    "name": "OpenScienceTechnology GmbH",
+    "place": "Duisburg"
+   },
+   "ai_contribution": null
+  },
+  "evidence": {
+   "references": [
+    {
+     "ref": "fr:astra/kepler-equant",
+     "roles": [
+      "inline"
+     ],
+     "count": 2
+    },
+    {
+     "ref": "fr:astra/kepler-equant-unequal-motion",
+     "roles": [
+      "ground",
+      "segment"
+     ],
+     "count": 3
+    },
+    {
+     "ref": "fr:astra/kepler-fig-ch4",
+     "roles": [
+      "segment"
+     ],
+     "count": 1
+    },
+    {
+     "ref": "fr:astra/solar-equivalence-equal-radii",
+     "roles": [
+      "ground",
+      "segment"
+     ],
+     "count": 1
+    },
+    {
+     "ref": "fr:kepler-prim/kgw-03/0071/fig01",
+     "roles": [
+      "inline",
+      "subject"
+     ],
+     "count": 1
+    },
+    {
+     "ref": "fr:kepler-prim/kgw-03/0071/p05",
+     "roles": [
+      "ground",
+      "inline",
+      "subject"
+     ],
+     "count": 1
+    },
+    {
+     "ref": "fr:kepler-sec/Kepler1992/0147/p02",
+     "roles": [
+      "ground",
+      "inline",
+      "subject"
+     ],
+     "count": 1
+    }
+   ],
+   "citations": [
+    "donahue1992",
+    "grasshoff2026astra",
+    "grasshoff2026fundamentals",
+    "grasshoff2026twocases",
+    "heath1908",
+    "keplerKGW3"
+   ],
+   "figures": [
+    {
+     "file": "figures/kepler-fig.png",
+     "id": "fig-kepler"
+    },
+    {
+     "file": "figures/kepler-three-states.png",
+     "id": "fig-states"
+    },
+    {
+     "file": "figures/kepler-ch2.png",
+     "id": "fig-ch2"
+    }
+   ]
+  },
+  "quality": {
+   "catalogue": "2026-11-11.1",
+   "run": "2026-11-11T10:47:40",
+   "verdict": "inventory",
+   "counts": {
+    "erfuellt": 11,
+    "luecke": 4,
+    "verletzt": 5,
+    "teilgeprueft": 1
+   },
+   "results": {
+    "erfuellt": "fulfilled",
+    "verletzt": "violated",
+    "luecke": "gap",
+    "offen_modell": "awaiting a judgement",
+    "teilgeprueft": "partly tested",
+    "fehler": "error",
+    "nicht_anwendbar": "not applicable"
+   },
+   "open": [
+    {
+     "gate": "heft.praeambel.bestaetigung.01",
+     "result": "luecke",
+     "blocking": true,
+     "title": "The author has confirmed the preamble",
+     "findings": 1
+    },
+    {
+     "gate": "heft.praeambel.ki_erklaerung.01",
+     "result": "luecke",
+     "blocking": true,
+     "title": "The contribution of AI systems to the issue is declared",
+     "findings": 1
+    },
+    {
+     "gate": "referenz.abdeckung.quellenaussage.01",
+     "result": "verletzt",
+     "blocking": true,
+     "title": "Every statement about a source carries a reference",
+     "findings": 26
+    },
+    {
+     "gate": "zitat.wortlaut.fundstelle.01",
+     "result": "verletzt",
+     "blocking": true,
+     "title": "A typed wording stands at the place named",
+     "findings": 17
+    },
+    {
+     "gate": "validitaet.sachlich.aussagen.01",
+     "result": "luecke",
+     "blocking": true,
+     "title": "The factual statements of the issue are justified (sachliche Validität)",
+     "findings": 1
+    },
+    {
+     "gate": "sprache.nononsense.einschuebe.01",
+     "result": "verletzt",
+     "blocking": true,
+     "title": "No evaluative, intensifying or meta-linguistic insertions",
+     "findings": 4
+    },
+    {
+     "gate": "sprache.schreibregeln.leitfaden.01",
+     "result": "verletzt",
+     "blocking": true,
+     "title": "The text fulfils the blocking rules of the Famulus writing guide",
+     "findings": 1
+    },
+    {
+     "gate": "sprache.termini.collection.01",
+     "result": "teilgeprueft",
+     "blocking": true,
+     "title": "The terms follow the dictionaries of the collections of the sub-series",
+     "findings": 22
+    },
+    {
+     "gate": "sprache.termini.fest.01",
+     "result": "verletzt",
+     "blocking": true,
+     "title": "The fixed terminology of the house is kept",
+     "findings": 4
+    },
+    {
+     "gate": "apparat.bibliographie.schluessel.01",
+     "result": "luecke",
+     "blocking": true,
+     "title": "Every citation key resolves, every entry is complete",
+     "findings": 4
+    }
+   ]
+  },
+  "counting": {
+   "vgwort": "assigned"
+  }
+ },
+ "title": "Reconstructing Kepler's Reasoning in the Astronomia Nova",
+ "subtitle": "A Compact Argument about the Equant, Made Explicit and Checked Step by Step",
+ "abstract": "In chapter 4 of the first part of the Astronomia nova Kepler gives, in eight lines and one figure, the argument by which Copernicus charged Ptolemy's equant with making the heavens move unequally: about the centre of its circle the planet passes a lesser arc and a greater arc in equal times. We reconstruct this argument. First the model is made explicit: every point of Kepler's figure with its construction and its astronomical meaning, the one angle that varies, and what is assumed of the lengths. Then the argument is written as steps, each with the premises it uses and the proposition of Euclid that licenses it, none of which Kepler names. The reconstruction is checked by a program: every step is tested over the whole parameter space of the model and all its states, matched against the rule it cites, and tested for the hypotheses it needs. Three things come out that the passage does not say. Kepler argues for the position in which the angle at the equant is right; the central inequality holds in every position of the half revolution. The hypothesis that the equant lies as far above the centre as the eye lies below it, which Kepler states, is not needed for the conclusion. And the argument rests on a triangle that vanishes when the planet is at the apogee or the perigee. A coda treats chapter 2, where Kepler states the equivalence of the eccentric and the concentric with epicycle and leaves the proof to the figure: \"Schema loquitur Geometrae\". The paper is meant as a model for doing the same with other passages.",
+ "keywords": [
+  "Kepler",
+  "Astronomia nova",
+  "equant",
+  "geometrical reasoning",
+  "argument reconstruction",
+  "history of astronomy"
+ ]
+}
